@@ -1,0 +1,56 @@
+{
+  "runs": [
+    {
+      "argv": [
+        "python3",
+        "csvpeek.py",
+        "sample.csv"
+      ],
+      "cwd": "tests/fixtures/devtool",
+      "environment": "Python 3.14.3",
+      "exit_code": 0,
+      "stdout": "{\"header\": [\"order_id\", \"total\"], \"rows\": 2}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "csvpeek.py",
+        "missing-file.csv"
+      ],
+      "cwd": "tests/fixtures/devtool",
+      "environment": "Python 3.14.3",
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "csvpeek: [Errno 2] No such file or directory: 'missing-file.csv'\n"
+    },
+    {
+      "argv": [
+        "/private/tmp/monad-python-runtimes/cpython-3.10.21-macos-aarch64-none/bin/python3.10",
+        "csvpeek.py",
+        "sample.csv"
+      ],
+      "cwd": "tests/fixtures/devtool",
+      "environment": "Python 3.10.21",
+      "exit_code": 0,
+      "stdout": "{\"header\": [\"order_id\", \"total\"], \"rows\": 2}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/private/tmp/monad-python-runtimes/cpython-3.10.21-macos-aarch64-none/bin/python3.10",
+        "csvpeek.py",
+        "missing-file.csv"
+      ],
+      "cwd": "tests/fixtures/devtool",
+      "environment": "Python 3.10.21",
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "csvpeek: [Errno 2] No such file or directory: 'missing-file.csv'\n"
+    }
+  ],
+  "source_sha256": "738a3179b4e09872f7de89096a1281b369db0aa35ca848842c9e60046e205630",
+  "sample_sha256": "bfe3e0a9a0b0b86bff9ab0d8a2a01d582c8ac8bfcada01ed35e30954383a47bc",
+  "passed": true,
+  "limits": "macOS local fixture only; not arbitrary product installation, integration or performance."
+}

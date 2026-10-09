@@ -1,0 +1,8 @@
+{
+  "original_errors": [],
+  "tampered_errors": [
+    "raw output changed or hash missing: skill-v3/multilingual"
+  ],
+  "passed": true,
+  "limits": "Detects output-byte changes, does not prove sources or content quality."
+}

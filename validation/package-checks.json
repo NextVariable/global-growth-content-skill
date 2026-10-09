@@ -1,0 +1,16 @@
+{
+  "checks": [
+    {
+      "check": "isolated-copy-without-first-skill",
+      "errors": []
+    },
+    {
+      "check": "external-dependency-rejected",
+      "errors": [
+        "install unit depends on outside path: ../../first-skill/SKILL.md"
+      ]
+    }
+  ],
+  "passed": true,
+  "limits": "Packaging boundary only; not customer-content quality."
+}

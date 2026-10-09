@@ -1,0 +1,58 @@
+{
+  "b2b-new": {
+    "A": "baseline",
+    "B": "skill-v1"
+  },
+  "paid-confused": {
+    "A": "baseline",
+    "B": "skill-v1"
+  },
+  "consumer-app": {
+    "A": "baseline",
+    "B": "skill-v1"
+  },
+  "developer-tool": {
+    "A": "skill-v1",
+    "B": "baseline"
+  },
+  "hardware-subscription": {
+    "A": "baseline",
+    "B": "skill-v1"
+  },
+  "multilingual": {
+    "A": "baseline",
+    "B": "skill-v1"
+  },
+  "target-change": {
+    "A": "skill-v1",
+    "B": "baseline"
+  },
+  "migration": {
+    "A": "skill-v1",
+    "B": "baseline"
+  },
+  "competitor-update": {
+    "A": "baseline",
+    "B": "skill-v1"
+  },
+  "local-rewrite": {
+    "A": "baseline",
+    "B": "skill-v1"
+  },
+  "learn-only": {
+    "A": "skill-v1",
+    "B": "baseline"
+  },
+  "conflicting-handoff": {
+    "A": "baseline",
+    "B": "skill-v1"
+  },
+  "search-content": {
+    "A": "skill-v1",
+    "B": "baseline"
+  },
+  "numeric-consistency": {
+    "A": "skill-v1",
+    "B": "baseline"
+  }
+}

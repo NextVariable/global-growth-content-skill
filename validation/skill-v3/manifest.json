@@ -1,0 +1,16 @@
+{
+  "mode": "skill-retest",
+  "cases": [
+    {
+      "id": "multilingual",
+      "input_sha256": "dfe41bc2bf0f518d26db119fa11ba8068883efd301e1d7946af101de9adbce94",
+      "output_sha256": "2eb3987c387b74e28ff3c709f5a29d08c06b6eb3ce9e280bbdc4d6a8608ce290",
+      "output_path": "02-产品定位与增长内容/validation/skill-v3/multilingual.md"
+    }
+  ],
+  "resource_sha256": {
+    "02-产品定位与增长内容/skills/global-growth-content/SKILL.md": "214ecbb832152bb6e556ce800a753dc443c61dff4128812e6138f3c1f0af02fb",
+    "02-产品定位与增长内容/skills/global-growth-content/references/adaptation.md": "94e7ee5590a141c83a4f67ff9b88698688a718376564e662ef1b579f5a4b7db7",
+    "02-产品定位与增长内容/skills/global-growth-content/references/provenance-and-handoff.md": "762c78f8d108a7ed46b16f878bc174d40191fce0cef49a6a9737a984b200e3e0"
+  }
+}

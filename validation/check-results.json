@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-09",
+  "checks": {
+    "first-module": {
+      "passed": true,
+      "checks": [
+        {
+          "name": "structure",
+          "passed": true,
+          "local_links": 66,
+          "errors": [],
+          "limits": "Repository checks, not a complete YAML/spec parser or semantic quality evaluation."
+        },
+        {
+          "name": "unit",
+          "passed": true,
+          "exit_code": 0
+        },
+        {
+          "name": "release",
+          "passed": true,
+          "exit_code": 0
+        },
+        {
+          "name": "stress",
+          "passed": true,
+          "exit_code": 0
+        },
+        {
+          "name": "expanded",
+          "passed": true,
+          "exit_code": 0
+        }
+      ],
+      "limits": "Deterministic helper checks; model behavior and real market outcomes require separate review."
+    },
+    "second-module-python314": {
+      "passed": true,
+      "checks": [
+        {
+          "name": "portable-package",
+          "passed": true,
+          "errors": []
+        },
+        {
+          "name": "task-provenance",
+          "passed": true,
+          "errors": []
+        }
+      ],
+      "limits": "Package and provenance checks only; see human semantic review separately. Synthetic tasks are not customer comprehension, channel delivery or growth evidence."
+    },
+    "second-module-python310": {
+      "passed": true,
+      "checks": [
+        {
+          "name": "portable-package",
+          "passed": true,
+          "errors": []
+        },
+        {
+          "name": "task-provenance",
+          "passed": true,
+          "errors": []
+        }
+      ],
+      "limits": "Package and provenance checks only; see human semantic review separately. Synthetic tasks are not customer comprehension, channel delivery or growth evidence."
+    }
+  },
+  "limits": "Local structural/helper checks only. CI integration added but remote jobs not run in this task."
+}
