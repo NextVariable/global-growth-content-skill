@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "csvpeek.py",
+    "sample.csv"
+  ],
+  "cwd": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/tests/fixtures/devtool",
+  "environment": {
+    "python": "3.14.3 (v3.14.3:323c59a5e34, Feb  3 2026, 11:41:37) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "platform": "macOS-26.3-arm64-arm-64bit-Mach-O",
+    "executable": "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3"
+  },
+  "stdout": "{\"header\": [\"order_id\", \"total\"], \"rows\": 2}\n",
+  "stderr": "",
+  "exit_code": 0
+}

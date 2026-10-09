@@ -1,0 +1,54 @@
+{
+  "commit_under_test": "80a287080c07ce69fe1342a4ba9d72453ab36eea",
+  "frozen_skill_path": "/private/tmp/global-growth-content-80a2870-audit",
+  "skill_resources": {
+    "LICENSE": "4f18feab6cac96e3e33da744be4cd74db6b779326008bfaf2b3243ecf16811ca",
+    "SKILL.md": "214ecbb832152bb6e556ce800a753dc443c61dff4128812e6138f3c1f0af02fb",
+    "references/pages-and-comparisons.md": "737c438c4777693330bb12bd208ae73427a71c8b21cc5a1a2234cafe4b53b0e0",
+    "references/provenance-and-handoff.md": "762c78f8d108a7ed46b16f878bc174d40191fce0cef49a6a9737a984b200e3e0",
+    "references/adaptation.md": "4f8a025d129ad00ab24dfa53ec7dbd8bd4af83648ead4f8f08a6fcf1c637f748",
+    "references/search-content.md": "c6cebae043008a6a7cbde1f8d3580ba4ddd943339aa68a3f706af68fc4bd24bf",
+    "references/developer-adoption.md": "27570ebcc6ae4e81f4b5cc4336165d54f02fdbdcbea0a5304d645017d9ba85d2",
+    "references/positioning-and-language.md": "235feb4db42f6d25d364a2847d20768f4a9a3a3def9210d4d6ca1c5b13a48ee7",
+    "agents/openai.yaml": "bacd037690edbda863ffad278272ccd36eca3e33ae9747cc5b929ae3d7da5e72",
+    "templates/content-handoff.md": "6592e368995980e8b93f4c3d2f9ebad88904c19dfffdbc9f6703b6febd253d07"
+  },
+  "gingiris_entries": {
+    "gr-readme": {
+      "path": "[local-workspace]/.codex/skills/gr-readme/SKILL.md",
+      "sha256": "9d6072a611028e04f089e5cc81c6098d8c3aa9c933fb0a46eb4e0853440c5fc3"
+    },
+    "gr-blog-post": {
+      "path": "[local-workspace]/.codex/skills/gr-blog-post/SKILL.md",
+      "sha256": "f3c8969b2b5d29dfb23183bce4aa5e556c21c66fdb46a193ba69279ae461b1e4"
+    },
+    "gr-social-distill": {
+      "path": "[local-workspace]/.codex/skills/gr-social-distill/SKILL.md",
+      "sha256": "2674fa563a1346a46d5aa1e63340876ea0d784a85e588c3b6ab16f29ee90faa5"
+    },
+    "gingiris-seo-geo": {
+      "path": "[local-workspace]/.codex/skills/gingiris-seo-geo/SKILL.md",
+      "sha256": "658ab1bd7ade6f8e53cd7ac1fe63432173d85f9c42601f8730fb818341bdb89c"
+    },
+    "gingiris-ugc-matrix": {
+      "path": "[local-workspace]/.codex/skills/gingiris-ugc-matrix/SKILL.md",
+      "sha256": "de2c9c0a166dff2677c51c0a376ab1121127b567ada45d87d7b79ac9a502f803"
+    },
+    "go-to-market-playbook": {
+      "path": "[local-workspace]/.codex/skills/go-to-market-playbook/SKILL.md",
+      "sha256": "32deac7973afc90ca9dbe24f379d9b04215a58f3d4230195be64543985c9adcc"
+    }
+  },
+  "execution_settings": "All execution agents request fork_turns=none and inherit same parent model/settings without overrides. Exact backend model build is not exposed by collaboration tool; no claim of statistically fair superiority.",
+  "tool_permissions": "Same available tool surface; all restricted by identical test instructions to frozen authorised files and local fixture execution; no network or external mutation.",
+  "aggregate_head": "227e17d6fc73bc45ec687b10cee56c39e5017dac",
+  "independent_skill_head": "994b27b8010e20bd716bacc6842363e9c36edae4",
+  "limits": [
+    "各组独立新上下文，组内8任务仍共享上下文；资料来源按case约束，未实现逐任务模型隔离。",
+    "Gingiris首页/场景页使用最接近的go-to-market-playbook，不是同范围专用内容Skill。",
+    "同一父模型/默认设置继承，无model或reasoning override；精确后端模型build与随机种子不可见。",
+    "序列变化预设在同一计划文件中，首轮指令要求不执行updates；属于计划性连续更新检查，不是盲于未来条件的测试。",
+    "所有产品/客户/竞品来源是合成冻结输入；平台当前规则、真实客户理解、流量和转化不在已验证范围。",
+    "首轮普通提示仅接收case输入，第三/第五Skill名称未附包内角色定义；这项背景缺口须作为信息不足，不用于声称普通组内容质量较差。"
+  ]
+}

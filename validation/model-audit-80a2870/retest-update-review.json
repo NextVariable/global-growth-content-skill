@@ -1,0 +1,46 @@
+{
+  "scope": "仅读retest-update-input.json、ours-after-update/retest-update.md，以及前次已读ours-after/platform-pack.md和customer-case.md。独立非盲更新复审，未读作者修法说明、Skill、report、其他组材料。",
+  "cases": [
+    {
+      "id": "platform-pack",
+      "errors": [],
+      "assessment": "完整英文与法文短帖、五段X、中文四页轮播、25秒视频所有有效保留窗口和运行间隔均更新为7天/不超过30分钟；同步间隔并未转成逐条送达时限。字幕、旁白、真实保留说明取景要求及禁止倒计时说明均传播新值；授权—填写—实际提交—时间跳转—CSV结果—保留说明—CTA动作链完整。",
+      "evidence_quotes": [
+        "Each workspace retains the most recent 7 days.",
+        "Sync-run gap: ≤30 min",
+        "Check the workspace’s 7-day retention window.",
+        "Chaque espace de travail conserve les données des 7 derniers jours.",
+        "L’intervalle entre deux exécutions de synchronisation ne dépasse pas 30 minutes."
+      ],
+      "preservation_check": {
+        "result": "pass",
+        "description": "将首轮公开平台包仅作规定事实替换后，与本轮从英文LinkedIn到法文CTA的整段公开平台包作精确字符串对比。该检查仅检验受影响文案之外是否保持，非质量按词匹配评分。",
+        "exact_match": true
+      }
+    },
+    {
+      "id": "customer-case",
+      "errors": [],
+      "assessment": "公开替代为完整匿名流程说明，仅陈述两份CSV对齐后人工回原始记录核查，并解释步骤区别。化名、原话、90/60、1200/1250、12/9以及日期、Excel旧流程、地区等客户细节均不公开；无新造替代客户、收入或节省结果。授权收窄导致的非量化正文是正确处理，不算故事不完整。CTA继续了解两CSV流程。",
+      "evidence_quotes": [
+        "An anonymous workflow shows a simple sequence: two CSV files are aligned, and a person then returns to the original records to check them."
+      ]
+    },
+    {
+      "id": "unaffected-and-history",
+      "errors": [],
+      "assessment": "内部保留旧授权历史并明确不得继续公开，没有把内部15分钟测试史当作有效事实。说明QueueNote和WalkPocket为别产品不重写；另一个conflicting-claim输入中的同名来源ID不是有效同源证据，没有用本轮F2擅自解决那页的冲突。这些保留原因符合本轮限定。未独立读取不受影响资产的新文件或哈希，不能将作者哈希声明说成已核验。",
+      "evidence_quotes": [
+        "来源 ID 的同名不能证明是同一有效证据"
+      ]
+    }
+  ],
+  "public_old_term_scan": {
+    "scope": "新版内部来源变化标题之前的公共素材",
+    "residual_terms": [],
+    "note": "词项扫描只作旧事实残留辅助检查；最终按句段语义核对，内部历史未包含在残留判定。"
+  },
+  "conclusion": "未发现确定的本轮语义更新缺陷。公开跨语言、镜头字幕与授权边界一致；平台不受影响正文通过规定事实替换后的精确保留检查。此结果不代表实录、母语自然度、发布规则、线上撤回或客户理解/效果验收成功。",
+  "limits": "未操作FormRelay、未录像或朗读计时，仍不能确认画面可读性和25秒实际剪辑；非母语法文审阅，不能确认当地自然度。没有真实发布资产清单或授权操作，因此不能验证旧内容线上删除/替换。没有理解测试或效果数据。第三/第五接收方合同仍未给，仅能评价拟议交接内容。",
+  "quote_verification": "7条证据短引均检查存在对应实际更新原稿。"
+}

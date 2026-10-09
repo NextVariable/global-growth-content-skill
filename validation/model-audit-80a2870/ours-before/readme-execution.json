@@ -1,0 +1,28 @@
+{
+  "platform": "macOS-26.3-arm64-arm-64bit-Mach-O",
+  "controller_python": "3.14.3 (v3.14.3:323c59a5e34, Feb  3 2026, 11:41:37) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "--version"
+      ],
+      "cwd": "[local-workspace]/Desktop/\u6d77\u5916\u589e\u957f skill/02-\u4ea7\u54c1\u5b9a\u4f4d\u4e0e\u589e\u957f\u5185\u5bb9/tests/fixtures/devtool",
+      "stdout": "Python 3.14.3\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python3",
+        "csvpeek.py",
+        "sample.csv"
+      ],
+      "cwd": "[local-workspace]/Desktop/\u6d77\u5916\u589e\u957f skill/02-\u4ea7\u54c1\u5b9a\u4f4d\u4e0e\u589e\u957f\u5185\u5bb9/tests/fixtures/devtool",
+      "stdout": "{\"header\": [\"order_id\", \"total\"], \"rows\": 2}\n",
+      "stderr": "",
+      "exit_code": 0
+    }
+  ],
+  "scope": "Read-only fixture run; no network, installation, source edits or external integration."
+}

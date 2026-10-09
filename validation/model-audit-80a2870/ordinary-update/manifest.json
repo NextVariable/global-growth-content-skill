@@ -1,0 +1,93 @@
+{
+  "cases": [
+    {
+      "id": "sequential-update",
+      "input_sha256": "38c5ba1ddad7b60d71108e654ad355fd97a97957142cb3369c84716684d8bd76",
+      "output_sha256": "aefac1dd1e7cd16002afda7188c8380669238e2b5a464a2e8e61c02eec5122cf",
+      "output_path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ordinary-update/sequential-update.md",
+      "mode": "ordinary",
+      "loaded_materials": [
+        "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/tests/fixtures/content-audit.json#updates/input",
+        "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ordinary/hero-scene.md",
+        "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ordinary/comparison.md",
+        "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ordinary/tutorial-update.md",
+        "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ordinary/customer-case.md",
+        "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ordinary/readme.md",
+        "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ordinary/platform-pack.md",
+        "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ordinary/creative-control.md",
+        "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ordinary/local-rewrite.md"
+      ]
+    }
+  ],
+  "mode": "ordinary",
+  "first_stage_files": [
+    {
+      "id": "hero-scene",
+      "path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ordinary/hero-scene.md",
+      "sha256": "58330fe5f875553aa83e1f4b8519fea6000824f2fcf704f379171e15abfccee9",
+      "public_status": "superseded by complete updated asset"
+    },
+    {
+      "id": "comparison",
+      "path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ordinary/comparison.md",
+      "sha256": "6327536fbce685e084dd344a6e1024289a3d461462b5fb30d2d35143cdd47c08",
+      "public_status": "superseded by complete updated asset"
+    },
+    {
+      "id": "tutorial-update",
+      "path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ordinary/tutorial-update.md",
+      "sha256": "11b8b19798b2df4feee61bc7b49d78a7743d039e83c932f1156e8a0bc155fdd2",
+      "public_status": "retained unchanged"
+    },
+    {
+      "id": "customer-case",
+      "path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ordinary/customer-case.md",
+      "sha256": "f78117461389f06269b89d5403ecf1102498276be6d8285fc6002682c1a842a0",
+      "public_status": "superseded by complete updated asset"
+    },
+    {
+      "id": "readme",
+      "path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ordinary/readme.md",
+      "sha256": "b68c5151b0986c2dae8d523d764b955863cd8d8a0566010d8a383bd1ae48f776",
+      "public_status": "retained unchanged"
+    },
+    {
+      "id": "platform-pack",
+      "path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ordinary/platform-pack.md",
+      "sha256": "94a051942dd8a6c54c593a02fcc083381a5e34be14ea773439acdc172f63a32d",
+      "public_status": "superseded by complete updated asset"
+    },
+    {
+      "id": "creative-control",
+      "path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ordinary/creative-control.md",
+      "sha256": "b67feda7c5fb30aa331e785a272e5214eb04ec67ca0b8d99f601772db3fc4925",
+      "public_status": "retained unchanged"
+    },
+    {
+      "id": "local-rewrite",
+      "path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ordinary/local-rewrite.md",
+      "sha256": "1728290c2a770e40569029cae2e7ce3d3307ce55c48e4b51ef6e22d5b93df076",
+      "public_status": "retained unchanged"
+    }
+  ],
+  "loaded_materials": [
+    "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/tests/fixtures/content-audit.json#updates/input",
+    "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ordinary/hero-scene.md",
+    "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ordinary/comparison.md",
+    "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ordinary/tutorial-update.md",
+    "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ordinary/customer-case.md",
+    "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ordinary/readme.md",
+    "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ordinary/platform-pack.md",
+    "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ordinary/creative-control.md",
+    "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ordinary/local-rewrite.md"
+  ],
+  "model": "inherited parent model; no override",
+  "backend_build": "not visible",
+  "loaded_skills": [],
+  "actual_execution": "Read own eight first-stage drafts and updates.input; saved complete replacement assets and internal withdrawal record without overwriting first-stage files.",
+  "unverified_scope": [
+    "No live UI, customer data, outcome or publication verification",
+    "No filming, external distribution, sales quote or experiment",
+    "No network, global installation, product source or Git changes"
+  ]
+}
