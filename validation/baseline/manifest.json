@@ -1,0 +1,90 @@
+{
+  "mode": "ordinary-prompt",
+  "execution_note": "独立普通提示执行：只读取完整cases.json及developer-tool指定csvpeek.py并运行sample.csv；不读取SKILL.md、references、其他验证输出或项目文档。不联网，不发布，不作事后比较或修改。所有输入为授权合成冻结测试；回答本身不证明真实市场效果。",
+  "cases": [
+    {
+      "id": "b2b-new",
+      "input_sha256": "726fa3833a6fbb4dade987a9d03a46cd7b35921de391f0430a5126b45f7b3bc1",
+      "output_sha256": "3578de6d3142e77d902182eef4cbe2be52083b8fb793161689428b5017a57623",
+      "output_path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/baseline/b2b-new.md"
+    },
+    {
+      "id": "paid-confused",
+      "input_sha256": "274d9bfc42f788d28fad5bb3e548a437fba652acda4700c4e16f99c5c49c68ff",
+      "output_sha256": "a8ebd17f34c56c1d8ebba50968d1d1a9ccd6884fb0e5c2ba371744de16510722",
+      "output_path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/baseline/paid-confused.md"
+    },
+    {
+      "id": "consumer-app",
+      "input_sha256": "1249d1761537b20a4b79a8c6d437b3845d78fa5405d13de27013f93908976496",
+      "output_sha256": "ef4262cd7e7cf260e5d2395ccc3bf873ceed3e9e4b7dcf58d5d3845f2e2ad0c7",
+      "output_path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/baseline/consumer-app.md"
+    },
+    {
+      "id": "developer-tool",
+      "input_sha256": "7b2bf2c3ee79d79d154b5ec197b81fc6d0bc0fac8bcde0618540ec9e5e19c322",
+      "output_sha256": "f98a1abab57840463ab76a1b9a00931474c9e9115a19b37c6badd3ce1455617a",
+      "output_path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/baseline/developer-tool.md"
+    },
+    {
+      "id": "hardware-subscription",
+      "input_sha256": "fb7d799e4eec84cfe5936e49d28c84567c09e3aa6adf9a0ad47976923907507c",
+      "output_sha256": "9ea43cec59b84f24b2c2d312f8fedb2d7ce6d39cc5d563810adf28b3c997a515",
+      "output_path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/baseline/hardware-subscription.md"
+    },
+    {
+      "id": "multilingual",
+      "input_sha256": "dfe41bc2bf0f518d26db119fa11ba8068883efd301e1d7946af101de9adbce94",
+      "output_sha256": "0c29d42525ea3a4ddd1ca5fe2a01b8090cb1741dc852b4a39112aaa6162fca5e",
+      "output_path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/baseline/multilingual.md"
+    },
+    {
+      "id": "target-change",
+      "input_sha256": "cd7c64f736f682f6728fa987cfd25712efc4a6c8136214edcb8241860c1aeb24",
+      "output_sha256": "72807cb9af4449a0f25be7ba4564e8710966f9998a856ef316184d124dd653b6",
+      "output_path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/baseline/target-change.md"
+    },
+    {
+      "id": "migration",
+      "input_sha256": "b165880e0aad3e600694d9d82864bee885d9d77d45daa2b0ed8afc2c48e4dfba",
+      "output_sha256": "8652d4f6154a62cfe46f77415152e94aaa81469b6461b435bca0496867ee6878",
+      "output_path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/baseline/migration.md"
+    },
+    {
+      "id": "competitor-update",
+      "input_sha256": "07d126c9dbd99c601640c9dec02755e461cc611059f474ea1db50bf5a7c64908",
+      "output_sha256": "8853ff237f24033ef05b92bf190efc6856103a0c012af3eb463e704b2b2c5596",
+      "output_path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/baseline/competitor-update.md"
+    },
+    {
+      "id": "local-rewrite",
+      "input_sha256": "7a62782b50634f5483832afd3097667b1374924cd3743634b4b0e032fd4ac1aa",
+      "output_sha256": "0ed39476204f76d9af25334bf8579413f7f875b31a4b573437c0d3e663e7cdbe",
+      "output_path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/baseline/local-rewrite.md"
+    },
+    {
+      "id": "learn-only",
+      "input_sha256": "c2fa8e9f6e0a749d7a9d6d931787b2ec00bb64f25b32df278b3fe1f08563516b",
+      "output_sha256": "ffe6e43dafaa5c94e2f320deaed1155a06edcd21ed93c2ffe105f5883687b8a1",
+      "output_path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/baseline/learn-only.md"
+    },
+    {
+      "id": "conflicting-handoff",
+      "input_sha256": "4d4f040d6fe1c3f9c01cf4fe2baf40bb6b6a0edc8024aff94f8ff17b3115fdf6",
+      "output_sha256": "b51683a1ed23f1e92bd1dcd946a62321876db1c17d0dabb1a2b750aba76d39fe",
+      "output_path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/baseline/conflicting-handoff.md"
+    },
+    {
+      "id": "search-content",
+      "input_sha256": "7836591b9e098a9953abc6e16184e06b035c66dcd72e46717eb02777f0d651d2",
+      "output_sha256": "fef73e57a822d2470972677250d6dae7647f156c0d336316654a46ce732538da",
+      "output_path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/baseline/search-content.md"
+    },
+    {
+      "id": "numeric-consistency",
+      "input_sha256": "c470c9e36d3129aa6295bcf618ac18b20e48e9f80b8f7cd67ca9859da1625d72",
+      "output_sha256": "cddf5f14762a3ac44640b4ffd91520e71a29bf6aab6c6134c84df23522fd7656",
+      "output_path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/baseline/numeric-consistency.md"
+    }
+  ]
+}

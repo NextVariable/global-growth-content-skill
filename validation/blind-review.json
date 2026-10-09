@@ -1,0 +1,158 @@
+{
+  "method": "仅读取blind-pairs.json；按同案完整输入审阅A/B，未读解码或原组目录。独立审阅者非目标客户；无法从盲文本确认所述工具运行真实性。",
+  "limitations": [
+    "部分正文明确提到Skill及第三/第五Skill，标签盲性可能受到表达风格影响。",
+    "全部为合成冻结产品资料，结论仅为产物语义审查，不是客户理解、渠道表现或真实市场证据。",
+    "未复跑README命令，未外查SEO规范，技术项只指出输入未确定却给无条件建议。"
+  ],
+  "cases": [
+    {
+      "id": "b2b-new",
+      "A_errors": [],
+      "B_errors": [
+        {
+          "severity": "minor",
+          "quote": "Keep your existing ATS workflow",
+          "problem": "输入只确认表格/CSV现行流程，未确认这组客户已用ATS。公开稿预设ATS会让表格用户误解采用前提；宜写保留现有流程。"
+        }
+      ],
+      "comparison": "两版都完成首屏、能力边界与了解CTA。A清楚承认尚需证明新增工具价值；B给出后续角色与理解指标，但额外预设ATS。均未建立真实购买差异，准确作为待验证问题保留。"
+    },
+    {
+      "id": "paid-confused",
+      "A_errors": [
+        {
+          "severity": "minor",
+          "quote": "来源是三家公司、四条材料",
+          "problem": "去重正确，但主题归纳未明确角色可比较分母、主题频率及仅付费样本的偏差，后续容易把归纳误作市场共识。"
+        },
+        {
+          "severity": "minor",
+          "quote": "does not automatically migrate historical column names or formulas",
+          "problem": "本案没有确认自动迁移能力；应说未确认，而非把未提供写成确知不支持。"
+        }
+      ],
+      "B_errors": [],
+      "comparison": "两版都说明CSV辅助、人工核查、旧模板阻力并避免公开私人原话。B额外限制缺失行不等于未付款，并按角色报告样本及反例；其优势是证据边界具体，尚非客户验证。"
+    },
+    {
+      "id": "consumer-app",
+      "A_errors": [],
+      "B_errors": [],
+      "comparison": "两版都明确Android、先联网下载地图、离线查看与GPX，避免导航及体验见证。A先下载后标记，B先标记后下载；输入未指定顺序，二者均要求拍摄前核验，不能据此断定失败。B交接多写素材权利，核心产品解释无实质差异。"
+    },
+    {
+      "id": "developer-tool",
+      "A_errors": [],
+      "B_errors": [
+        {
+          "severity": "minor",
+          "quote": "实际执行记录：工作目录为",
+          "problem": "记录命令、目录、退出码与输出，但未记录本次Python实际版本，无法把要求Python>=3.10与已运行环境对照。"
+        }
+      ],
+      "comparison": "两版都给真实位置参数而非虚构pip包或--input，说明首行表头、记录数及非完整校验。A列环境版本及核验范围，B未列实际版本。只凭盲文本能审证据声明，未独立复跑或核验工具日志，不能确认两版实际执行真实性。"
+    },
+    {
+      "id": "hardware-subscription",
+      "A_errors": [],
+      "B_errors": [
+        {
+          "severity": "minor",
+          "quote": "or store readings for later upload when offline",
+          "problem": "输入确认的是不支持离线补传，未确认设备不存储离线读数；不存储与不能补传不是同一硬件机制，公开稿应保持原能力边界。"
+        }
+      ],
+      "comparison": "两版都拆开AUD设备一次性/订阅月费、税未知、Wi-Fi条件，保留便宜温度计的合理性，未承诺损耗或告警。B后续角色交接更具体；A提醒退订行为未知，二者各有有用补充。"
+    },
+    {
+      "id": "multilingual",
+      "A_errors": [
+        {
+          "severity": "moderate",
+          "quote": "La synchronisation peut prendre jusqu’à 15 minutes",
+          "problem": "源输入是最长每15分钟同步一次；法文与UGC字幕改成同步处理/到达最多耗时15分钟，不能由调度间隔推出端到端延迟上限。"
+        },
+        {
+          "severity": "moderate",
+          "quote": "第五Skill交接条件：如开展搜索内容或本地化部署",
+          "problem": "第五Skill应接收信息假设、版本差异、预期行为与评价口径；这里转向域名、hreflang和部署前提，没有交付当前内容测试假设或行为指标。"
+        }
+      ],
+      "B_errors": [
+        {
+          "severity": "moderate",
+          "quote": "Sync can take up to 15 minutes",
+          "problem": "英法与中文“同步最长需要15分钟”以及等待镜头均将源同步间隔改成端到端耗时保证。应保留最长同步间隔，未核验前不承诺提交到CSV可见时间。"
+        }
+      ],
+      "comparison": "共同失败是将间隔转为延迟，源事实一致性在多语言/UGC中失守。两版保留30天、管理员与来源限制，不写效果；B第五Skill交接有可比较开场和按语言理解指标，A交错职能。两版均需修正时间措辞后才适合后续发布核验。"
+    },
+    {
+      "id": "target-change",
+      "A_errors": [],
+      "B_errors": [
+        {
+          "severity": "minor",
+          "quote": "identify what is still missing before the next interview",
+          "problem": "尚只确认状态筛选和跟进列表，没有缺失状态自动判断能力。可以作为人工审查结果表达，但应像A明确字段完整性前提，避免让人理解为自动发现所有缺失。"
+        }
+      ],
+      "comparison": "两版实质改为内部招聘协调任务，区分HR付款者，并说明没有通知/共同编辑。A明确CSV必须含足够面试信息；B明确协调员仍需既有渠道传达。未自行重选市场。"
+    },
+    {
+      "id": "migration",
+      "A_errors": [],
+      "B_errors": [],
+      "comparison": "两版都只替换迁移段，把无缝替代改成样例CSV与字段评估，保留旧公式/列名检验及人工复核，不重做GTM。A特别说明没有既成上传服务；B更具体检查标识与导出适配。无实质性胜负。"
+    },
+    {
+      "id": "competitor-update",
+      "A_errors": [],
+      "B_errors": [],
+      "comparison": "两版撤回独家CSV与无需人工录入，采用E2且保留ATS差异，明确没有速度/价格/迁移优势证据。A更明确CSV场景仍需公平比较；B提醒下游所有旧主张同步撤换。两版都可作合成更新练习的有效交付，不代表真实竞品核验。"
+    },
+    {
+      "id": "local-rewrite",
+      "A_errors": [],
+      "B_errors": [],
+      "comparison": "两版仅一句英文，保留Android、先联网下载与离线查看，删除即刻/任何城市夸大，没有重做定位报告。无实质差异。"
+    },
+    {
+      "id": "learn-only",
+      "A_errors": [],
+      "B_errors": [],
+      "comparison": "两版都用看CSV流程的了解CTA，说明导入—筛选—跟进，不伪造购买/演示URL。A提出样例输入与输出要求，B给更直接下一页正文；都没有要求顾问作采购决定。"
+    },
+    {
+      "id": "conflicting-handoff",
+      "A_errors": [],
+      "B_errors": [
+        {
+          "severity": "moderate",
+          "quote": "filter candidate-status records imported from CSV",
+          "problem": "F1仅确认CSV筛选，不足以证明产品导入机制；公开首屏仍宣称已导入，内部“依据本次CSV筛选资料”把推断升级成能力。应改为from your CSV，并将导入待核验留在内部。"
+        }
+      ],
+      "comparison": "两版保持D1、指出D2未授权和ATS未核验，继续可完成部分。A明确不加入导入和跟进列表；B虽然注释需核验机制，却已在公开首屏加入导入，属于可定位的证据扩张。"
+    },
+    {
+      "id": "search-content",
+      "A_errors": [],
+      "B_errors": [
+        {
+          "severity": "minor",
+          "quote": "为它配置指向最终正式页面的自引用canonical",
+          "problem": "未了解重复版本与最终页面关系，就统一建议自引用；若本页实际是重复页，可能需要指向另一规范页。应先确定规范页与重复关系，给条件建议。"
+        }
+      ],
+      "comparison": "两版直接回答订单号集合差异，说明缺失不等于未付款、准备检查并非产品自动修复，不编SEO数据或URL。A技术建议更条件化；B通用自引用建议尚需页面关系确认。两版没有部署或搜索效果验证。"
+    },
+    {
+      "id": "numeric-consistency",
+      "A_errors": [],
+      "B_errors": [],
+      "comparison": "两版英法中保持AUD120一次性、AUD9/月、每小时、7天、无补传/实时提醒和了解CTA，未换币种或写损耗效果。A补税未知边界，B法文更明确不随后传送离线记录。无实质性事实差异；母语理解及真实产品仍未验证。"
+    }
+  ]
+}

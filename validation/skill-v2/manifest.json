@@ -1,0 +1,36 @@
+{
+  "mode": "skill-retest",
+  "cases": [
+    {
+      "id": "b2b-new",
+      "input_sha256": "726fa3833a6fbb4dade987a9d03a46cd7b35921de391f0430a5126b45f7b3bc1",
+      "output_sha256": "4f43090fc75410e194462f1cc488b6ca24e7887bf6f74e8411959e83665df2fe",
+      "output_path": "02-产品定位与增长内容/validation/skill-v2/b2b-new.md"
+    },
+    {
+      "id": "hardware-subscription",
+      "input_sha256": "fb7d799e4eec84cfe5936e49d28c84567c09e3aa6adf9a0ad47976923907507c",
+      "output_sha256": "8c1e94b78a6ebe38fa07772e441664128690fe0418f1a3eff0403d80a12b35f0",
+      "output_path": "02-产品定位与增长内容/validation/skill-v2/hardware-subscription.md"
+    },
+    {
+      "id": "multilingual",
+      "input_sha256": "dfe41bc2bf0f518d26db119fa11ba8068883efd301e1d7946af101de9adbce94",
+      "output_sha256": "91cfa78d62bc455553e1cd88efc869eee1d6f1279b37768d7f9512ec60af5bc6",
+      "output_path": "02-产品定位与增长内容/validation/skill-v2/multilingual.md"
+    },
+    {
+      "id": "conflicting-handoff",
+      "input_sha256": "4d4f040d6fe1c3f9c01cf4fe2baf40bb6b6a0edc8024aff94f8ff17b3115fdf6",
+      "output_sha256": "b5a825981ee22df17466003224c04de2b7e6ff01d2b1d4c08b1b8a6bc121a2ee",
+      "output_path": "02-产品定位与增长内容/validation/skill-v2/conflicting-handoff.md"
+    }
+  ],
+  "resource_sha256": {
+    "02-产品定位与增长内容/skills/global-growth-content/SKILL.md": "214ecbb832152bb6e556ce800a753dc443c61dff4128812e6138f3c1f0af02fb",
+    "02-产品定位与增长内容/skills/global-growth-content/references/positioning-and-language.md": "235feb4db42f6d25d364a2847d20768f4a9a3a3def9210d4d6ca1c5b13a48ee7",
+    "02-产品定位与增长内容/skills/global-growth-content/references/pages-and-comparisons.md": "ef9643ee5982ed133058a36f505547620b66fa82df30049b39b3e9b98bf0d020",
+    "02-产品定位与增长内容/skills/global-growth-content/references/adaptation.md": "6a091721054208ef99b9035c1425ada72312901e2d6c70b6c23829b3aab003d6",
+    "02-产品定位与增长内容/skills/global-growth-content/references/provenance-and-handoff.md": "762c78f8d108a7ed46b16f878bc174d40191fce0cef49a6a9737a984b200e3e0"
+  }
+}

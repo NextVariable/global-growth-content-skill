@@ -1,0 +1,17 @@
+{
+  "skill": "global-growth-content",
+  "date": "2026-10-09",
+  "files": {
+    "LICENSE": "4f18feab6cac96e3e33da744be4cd74db6b779326008bfaf2b3243ecf16811ca",
+    "SKILL.md": "214ecbb832152bb6e556ce800a753dc443c61dff4128812e6138f3c1f0af02fb",
+    "agents/openai.yaml": "bacd037690edbda863ffad278272ccd36eca3e33ae9747cc5b929ae3d7da5e72",
+    "references/adaptation.md": "94e7ee5590a141c83a4f67ff9b88698688a718376564e662ef1b579f5a4b7db7",
+    "references/developer-adoption.md": "4b0b187b07106de24ac54d4cea146b20f4b72859a02bfa046f65defccf6ae7ef",
+    "references/pages-and-comparisons.md": "ef9643ee5982ed133058a36f505547620b66fa82df30049b39b3e9b98bf0d020",
+    "references/positioning-and-language.md": "235feb4db42f6d25d364a2847d20768f4a9a3a3def9210d4d6ca1c5b13a48ee7",
+    "references/provenance-and-handoff.md": "762c78f8d108a7ed46b16f878bc174d40191fce0cef49a6a9737a984b200e3e0",
+    "references/search-content.md": "a2be7f1e6c0677fa3f0a006e855a128cbba0ed28f502227fc0cb7f51ed7de785",
+    "templates/content-handoff.md": "6592e368995980e8b93f4c3d2f9ebad88904c19dfffdbc9f6703b6febd253d07"
+  },
+  "notice": "最终安装资源快照，原始运行各自manifest保存当时资源范围；不是客户或内容效果证明。"
+}
