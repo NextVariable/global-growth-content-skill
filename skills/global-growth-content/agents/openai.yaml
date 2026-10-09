@@ -1,0 +1,4 @@
+interface:
+  display_name: "产品定位与增长内容 / Global Positioning & Growth Content"
+  short_description: "把客户任务与产品价值转成可信定位、页面、README、搜索内容和多语言社媒"
+  default_prompt: "使用 $global-growth-content，根据授权产品背景和已有 GTM 判断制作本次需要的定位或内容，保留证据边界与合适 CTA。"

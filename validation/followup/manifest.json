@@ -1,0 +1,36 @@
+{
+  "mode": "skill",
+  "run": "followup",
+  "scope": "Two additional synthetic boundary tasks; not part of 14-pair baseline comparison",
+  "entry_sha256": "0d3049ee5e9d74935f705e071d4fc8afc67cbaf179090b52b1d59df27a5f99ec",
+  "cases": [
+    {
+      "id": "upstream-chain",
+      "mode": "skill",
+      "input_sha256": "c87fc5f2ef31d18384c35ae0454c837ceeb5ebd6dcfe0aa394cd0e44d1532ea5",
+      "output_sha256": "a7987b39385e133d6c89a16a2a64ba04a0819d76eba52bc9ee3316bd0d1ff2ef",
+      "output_path": "validation/followup/upstream-chain.md",
+      "loaded_resources": [
+        "skills/global-growth-content/SKILL.md",
+        "skills/global-growth-content/references/provenance-and-handoff.md",
+        "skills/global-growth-content/references/pages-and-comparisons.md",
+        "skills/global-growth-content/references/positioning-and-language.md"
+      ],
+      "limitations": "Synthetic frozen source only; no actual asset inventory, publication or outcome validation."
+    },
+    {
+      "id": "quote-withdrawal",
+      "mode": "skill",
+      "input_sha256": "be33fa1f6445868bbe37782f1fe95ea76cbf22c0d6a6d7d5c5371ef127e763c8",
+      "output_sha256": "cf87f214b52c85efcc84b5463b31aecc7aa86ab2b18d754cd111594f5830143b",
+      "output_path": "validation/followup/quote-withdrawal.md",
+      "loaded_resources": [
+        "skills/global-growth-content/SKILL.md",
+        "skills/global-growth-content/references/provenance-and-handoff.md",
+        "skills/global-growth-content/references/pages-and-comparisons.md",
+        "skills/global-growth-content/references/positioning-and-language.md"
+      ],
+      "limitations": "Synthetic frozen source only; no actual asset inventory, publication or outcome validation."
+    }
+  ]
+}
