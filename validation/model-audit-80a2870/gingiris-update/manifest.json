@@ -1,0 +1,183 @@
+{
+  "cases": [
+    {
+      "id": "sequential-update",
+      "input_sha256": "38c5ba1ddad7b60d71108e654ad355fd97a97957142cb3369c84716684d8bd76",
+      "input_hash_convention": "Exact decoded updates.input string encoded UTF-8",
+      "output_sha256": "6a12936edb6a918179695c035a872b48d166b94eb5e392d486cdcc50ce548071",
+      "output_path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/gingiris-update/sequential-update.md",
+      "mode": "gingiris",
+      "loaded_materials": [
+        {
+          "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/tests/fixtures/content-audit.json",
+          "sha256": "6c0336390f4907623e44a8feb8adbdfed5bf36a667a94a44e1f4560da5049a6e",
+          "load_stage": "Current update"
+        },
+        {
+          "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/gingiris/hero-scene.md",
+          "sha256": "9f79be9682998d62bbb2b6459842eba2e08e2f10d9eebbb98eaa9de9412946a5",
+          "load_stage": "Current update"
+        },
+        {
+          "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/gingiris/comparison.md",
+          "sha256": "4aef796fb83d4dbfd8b853cc99d55eadff6dfa5dcc25aa9db74d286a29cc95b1",
+          "load_stage": "Current update"
+        },
+        {
+          "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/gingiris/tutorial-update.md",
+          "sha256": "90c647ee6c334e322f43b2e038ded016424de83fde9996360573935dc13f2d8b",
+          "load_stage": "Current update"
+        },
+        {
+          "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/gingiris/customer-case.md",
+          "sha256": "dc7e53999d167ede924e70edc42a3135ae95cf6210725017f54fc6f90268bfec",
+          "load_stage": "Current update"
+        },
+        {
+          "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/gingiris/readme.md",
+          "sha256": "a7741c2178233d87c7117d265c0d0f9897c24a2591eb29e735c5bb3f1ee7bee7",
+          "load_stage": "Current update"
+        },
+        {
+          "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/gingiris/platform-pack.md",
+          "sha256": "bac487a908ad16eb87b0d0e8a5ccdbb399fab97809ee69c31ccdf713e7b968e5",
+          "load_stage": "Current update"
+        },
+        {
+          "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/gingiris/creative-control.md",
+          "sha256": "dc07379d423ec84603970d000f7d8dbbf813b4c23db82cf587f95b018fa2d9e9",
+          "load_stage": "Current update"
+        },
+        {
+          "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/gingiris/local-rewrite.md",
+          "sha256": "11b646a9ba6da348587f6d39c79174b1ad8e20896b43f187c5a88af7c5661307",
+          "load_stage": "Current update"
+        },
+        {
+          "path": "/Users/francis/.codex/skills/go-to-market-playbook/SKILL.md",
+          "sha256": "32deac7973afc90ca9dbe24f379d9b04215a58f3d4230195be64543985c9adcc",
+          "load_stage": "Previously loaded first round and retained in same agent context"
+        },
+        {
+          "path": "/Users/francis/.codex/skills/gingiris-seo-geo/SKILL.md",
+          "sha256": "658ab1bd7ade6f8e53cd7ac1fe63432173d85f9c42601f8730fb818341bdb89c",
+          "load_stage": "Previously loaded first round and retained in same agent context"
+        },
+        {
+          "path": "/Users/francis/.codex/skills/gingiris-seo-geo/references/comparison-pages.md",
+          "sha256": "5fb2d01cfedafc4a8893cd6f316c0548d9e9208e22a7541034b48992906a6e93",
+          "load_stage": "Previously loaded first round and retained in same agent context"
+        },
+        {
+          "path": "/Users/francis/.codex/skills/gr-blog-post/SKILL.md",
+          "sha256": "f3c8969b2b5d29dfb23183bce4aa5e556c21c66fdb46a193ba69279ae461b1e4",
+          "load_stage": "Previously loaded first round and retained in same agent context"
+        },
+        {
+          "path": "/Users/francis/.codex/skills/gr-blog-post/references/writing-voice-iris.md",
+          "sha256": "9f130dc8ad8bff0aa16a57361afc8a10b2eebeebd62d0a6b46e9e379cbbf56d1",
+          "load_stage": "Previously loaded first round and retained in same agent context"
+        },
+        {
+          "path": "/Users/francis/.codex/skills/gingiris-seo-geo/references/content-sop.md",
+          "sha256": "c6583d977471d59f783c80f7343f5785d98904dd5199bbfb3226414db1e3ce57",
+          "load_stage": "Previously loaded first round and retained in same agent context"
+        },
+        {
+          "path": "/Users/francis/.codex/skills/gr-social-distill/SKILL.md",
+          "sha256": "2674fa563a1346a46d5aa1e63340876ea0d784a85e588c3b6ab16f29ee90faa5",
+          "load_stage": "Previously loaded first round and retained in same agent context"
+        },
+        {
+          "path": "/Users/francis/.codex/skills/gingiris-ugc-matrix/SKILL.md",
+          "sha256": "de2c9c0a166dff2677c51c0a376ab1121127b567ada45d87d7b79ac9a502f803",
+          "load_stage": "Previously loaded first round and retained in same agent context"
+        },
+        {
+          "path": "/Users/francis/.codex/skills/gingiris-ugc-matrix/references/full-sop.md",
+          "sha256": "cd3e97098bd54d2e9656c387c4b9e9dd40fa32da7faae927a0e3a9053d9cf3f2",
+          "load_stage": "Previously loaded first round and retained in same agent context"
+        }
+      ],
+      "first_round_files": [
+        {
+          "id": "hero-scene",
+          "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/gingiris/hero-scene.md",
+          "sha256": "9f79be9682998d62bbb2b6459842eba2e08e2f10d9eebbb98eaa9de9412946a5",
+          "matches_first_round_manifest": true
+        },
+        {
+          "id": "comparison",
+          "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/gingiris/comparison.md",
+          "sha256": "4aef796fb83d4dbfd8b853cc99d55eadff6dfa5dcc25aa9db74d286a29cc95b1",
+          "matches_first_round_manifest": true
+        },
+        {
+          "id": "tutorial-update",
+          "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/gingiris/tutorial-update.md",
+          "sha256": "90c647ee6c334e322f43b2e038ded016424de83fde9996360573935dc13f2d8b",
+          "matches_first_round_manifest": true
+        },
+        {
+          "id": "customer-case",
+          "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/gingiris/customer-case.md",
+          "sha256": "dc7e53999d167ede924e70edc42a3135ae95cf6210725017f54fc6f90268bfec",
+          "matches_first_round_manifest": true
+        },
+        {
+          "id": "readme",
+          "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/gingiris/readme.md",
+          "sha256": "a7741c2178233d87c7117d265c0d0f9897c24a2591eb29e735c5bb3f1ee7bee7",
+          "matches_first_round_manifest": true
+        },
+        {
+          "id": "platform-pack",
+          "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/gingiris/platform-pack.md",
+          "sha256": "bac487a908ad16eb87b0d0e8a5ccdbb399fab97809ee69c31ccdf713e7b968e5",
+          "matches_first_round_manifest": true
+        },
+        {
+          "id": "creative-control",
+          "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/gingiris/creative-control.md",
+          "sha256": "dc07379d423ec84603970d000f7d8dbbf813b4c23db82cf587f95b018fa2d9e9",
+          "matches_first_round_manifest": true
+        },
+        {
+          "id": "local-rewrite",
+          "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/gingiris/local-rewrite.md",
+          "sha256": "11b646a9ba6da348587f6d39c79174b1ad8e20896b43f187c5a88af7c5661307",
+          "matches_first_round_manifest": true
+        }
+      ],
+      "actual_execution": {
+        "draft_generation": true,
+        "first_round_hashes_verified": true,
+        "public_outdated_value_scan_passed": true,
+        "new_product_execution": false
+      },
+      "unverified_scope": [
+        "Synthetic source facts not independently validated",
+        "No publication/deployment/application/video/sync/customer test",
+        "No new csvpeek execution; earlier evidence remains first-round only",
+        "No pricing transaction or growth experiment"
+      ],
+      "unchanged_assets": [
+        "tutorial-update",
+        "readme",
+        "creative-control",
+        "local-rewrite"
+      ],
+      "replaced_assets": [
+        "hero-scene",
+        "comparison",
+        "customer-case",
+        "platform-pack"
+      ]
+    }
+  ],
+  "model": {
+    "family": "Inherited parent, no override",
+    "exact_backend_build": "Not visible"
+  },
+  "raw_outputs": "First round immutable; update saved once in separate directory"
+}

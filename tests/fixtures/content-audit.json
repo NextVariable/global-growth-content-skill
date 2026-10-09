@@ -1,0 +1,113 @@
+{
+  "notice": "合成冻结任务；模型实际生成内容不等于真实客户或增长效果。独立组上下文，每组同8输入；第二阶段同组连续更新。未向执行者提供期望答案或失败线索。",
+  "cases": [
+    {
+      "id": "hero-scene",
+      "formats": [
+        "官网首屏",
+        "场景页"
+      ],
+      "condition": "资料不足但能力确认",
+      "reuse": "b2b-new",
+      "input": "用户授权测试产品 QueueNote：英国 10–30 人招聘代理公司的招聘顾问，已由第一部分选定，不要换细分。每天从 CSV 汇总候选人面试状态，主管周五核对遗漏。已实现 CSV 导入、状态筛选和待跟进列表；不接 ATS API，无自动发邮件。尚无客户、访谈、效果数据。付款者为代理公司老板，使用者为顾问。原产品句：“AI 驱动的全球人才招聘全流程平台，节省80%时间。”当前表格无需采购，团队熟悉。请求：改成英文首屏和简短内部信息主线，CTA 是了解工作流，附证据边界与后续交接。\n本轮交付额外要求：用完整英文首屏（标题、正文、CTA）及一份完整英文场景页，围绕周五主管核对遗漏；不要以原则或待确认清单替代正文。资料未给出UI按钮名、权限和价格，不补造。公开正文与内部说明分开。",
+      "gingiris": [
+        "go-to-market-playbook"
+      ]
+    },
+    {
+      "id": "comparison",
+      "formats": [
+        "竞品对比页"
+      ],
+      "condition": "来源冲突及混合计费",
+      "reuse": "competitor-update",
+      "input": "授权合成冻结产品 QueueNote；既定英国10–30人招聘代理团队。当前F1仅CSV导入、状态筛选、待跟进列表，无ATS API、无自动邮件。Qprice：当前Starter，每席位 GBP 8/月，按年付费（即每席位GBP 96/年），最少5席位，无其他必收费用，含税状态未知。竞品TrackDesk当前T2：CSV导入、ATS API；Tprice：GBP 59/工作区/月，月付，含5席位和10000条记录，额外记录价格未给，税未知。旧T1销售对比说“不支持CSV”，旧标题“只有QueueNote能导入CSV，更便宜也免人工”。当前T2替代旧T1。5席位客户有时仅用CSV，部分客户必须连ATS。请求：交付完整英文对比页，直接帮助这两个情境选择，说明单位/期限/门槛/取舍与迁移核验；附标题、描述、CTA和更新依据。不要造评价、迁移功能、整体更便宜结论或真实URL。",
+      "gingiris": [
+        "gingiris-seo-geo"
+      ]
+    },
+    {
+      "id": "tutorial-update",
+      "formats": [
+        "教程",
+        "旧内容更新"
+      ],
+      "condition": "充分流程资料及已有相同问题页面",
+      "reuse": "search-content",
+      "input": "授权合成产品ReconcilePad，加拿大小型电商记账公司。已有英文文章资产A1，slug=/guides/missing-payment-rows，题目“How to find orders missing from a payment CSV”。正文原稿：“Open Orders and Payments exports for the same month. Match by order_id. Missing rows are unpaid orders. Upload both files into ReconcilePad and it fixes IDs automatically. Export the review list.” 已有结尾不受影响段：“Keep original exports. A review list is a starting point for checking the original records, not your accounting ledger.” 能力F1：用户选两份UTF-8 CSV，指定各自订单号列，按完全相等字符串对齐，标订单表中无付款匹配的行并导出待核对CSV，不修改源文件、不自动去空格/改前导零/退款/银行API。样例orders.csv包含001,002,003，payments.csv包含001,003；预期缺失002。空订单号需人工修复导出；重复ID需回源核对，工具不保证自动解决。拟题“Fix missing payment CSV entries”，读者和问题与A1相同，无关键词工具。用户希望拿到帮助记账员完成这次核查的英文内容，选择更新还是新篇由你判断，交付完整正文、标题描述、样例输入输出、失败处理和CTA。保留不受影响段，不伪造站点已部署。",
+      "gingiris": [
+        "gr-blog-post",
+        "gingiris-seo-geo"
+      ]
+    },
+    {
+      "id": "customer-case",
+      "formats": [
+        "客户案例"
+      ],
+      "condition": "充分实施记录和有条件授权",
+      "input": "合成冻结客户案例，产品ReconcilePad，既定加拿大记账服务公司读者。授权记录R1允许用客户化名“NorthLedger”和以下数据/原话，照片未授权。任务：月末对齐电商订单CSV和付款CSV，原用Excel公式。实施：2026-08和09两次月末，分别输入1200和1250订单行；记账员把两份UTF-8文件按order_id完全匹配，导出差异清单，再到原记录逐笔核对。8月发现12个未匹配订单号、9月9个；其中均有晚到账或导出时间差，未测漏收款金额。记录L1：单个记账员8月使用原模板核对清单90分钟，9月用ReconcilePad首次核对清单60分钟；订单结构、熟练度与文件覆盖未控制，不证明因果或可推广节省。能力只CSV对齐、标缺失、导出，无银行/退款处理。获准短引语V1：“The list tells me where to start checking; it does not close the books for me.” 请求：完整英文客户案例，讲原任务、实施机制、可核验变化与限制，面向同行了解流程，CTA看两CSV工作流。不要变成纯注意事项，不写照片或自动省33%效果标题；另给内部来源/授权说明。",
+      "gingiris": [
+        "gr-blog-post",
+        "gingiris-seo-geo"
+      ]
+    },
+    {
+      "id": "readme",
+      "formats": [
+        "开发者README"
+      ],
+      "condition": "可实际运行源码与旧错误示例",
+      "reuse": "developer-tool",
+      "input": "测试开源工具 csvpeek，目标为Python开发者在接入CSV前检查表头和行数。stdlib，Python >=3.10，本地读取UTF-8 CSV，无上传、无纠错、无数据库连接；无发行包，无性能基准，无stars数据。源码只在 tests/fixtures/devtool/csvpeek.py，命令 python3 csvpeek.py path/to/file.csv；不存在 --input 参数。示例 sample.csv。请求：英文README首屏、可运行安装/最小示例、限制与团队采用说明。实际运行并保留命令和输出；无文档站/社区URL，别编造。\n已有README先放八段架构再安装，旧命令“pip install csvpeek; csvpeek --input sample.csv”。本轮重新交付完整英文README，让读者完成首次任务。实际源码和样例的授权绝对位置：/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/tests/fixtures/devtool/。你可读源码并运行，不改源码。不要将测试项目绝对路径作为产品安装依赖；发行与许可证信息没有提供，不猜仓库URL。内部保留命令、目录、环境、stdout/stderr/退出状态。",
+      "gingiris": [
+        "gr-readme"
+      ]
+    },
+    {
+      "id": "platform-pack",
+      "formats": [
+        "社交短帖",
+        "长串",
+        "轮播",
+        "短视频脚本",
+        "多语言改写"
+      ],
+      "condition": "受限能力与具体可演示流程",
+      "reuse": "multilingual",
+      "input": "合成冻结FormRelay。既定英国/法国小型活动组织者，了解阶段。能力F1：网站表单提交保存CSV，每工作区保留最近30天，两次同步运行的最大间隔15分钟（不保证逐条提交送达上限）；首次连接需要管理员授权，只支持网页表单，不支持电话、聊天、实时同步或效果数字。可演示资料D1：测试报名表仅name与session两字段，用Demo Guest/Workshop A；管理员授权一次表单连接；提交测试记录；下一次同步后CSV出现该记录；查看工作区30天保留说明。UI具体按钮名称和固定等待耗时未提供，不编造。公开素材均用合成记录，不出真人资料。请求：交付面向活动运营者的英文LinkedIn短帖、面向技术接入者的英文5段X长串、中文4页轮播（逐页完整文字及画面）、可拍25秒视频脚本（逐镜头操作、旁白字幕、素材条件），并将LinkedIn帖改成法文。各平台表达任务不同，不要同广告换名字；CTA都了解数据流程，无真实URL。附必要来源和第三/第五Skill交接。",
+      "gingiris": [
+        "gr-social-distill",
+        "gingiris-ugc-matrix"
+      ]
+    },
+    {
+      "id": "creative-control",
+      "formats": [
+        "创意版本"
+      ],
+      "condition": "单变量创意表达",
+      "reuse": "consumer-app",
+      "input": "合成WalkPocket，既定英国城市步行者，Android；手动记地点/备注，联网预下载地图后离线查看，不导航，不实时位置跟踪，支持GPX但不明导出备注方式，无效果数据。已有25秒视频中段及结尾需要逐字保留：“On Android, mark a place and add a note. Download the map while online, then view what you saved offline. WalkPocket does not provide navigation. See the offline workflow.” 请求只做两个不同开场的创意版本，版本A用任务问题，版本B用操作画面开场；给各自前三秒镜头、旁白/字幕，再原样给上述共同中段结尾；说明唯一表达假设和预期理解行为，不额外改变功能、CTA或受众，不发表或招募。",
+      "gingiris": [
+        "gingiris-ugc-matrix"
+      ]
+    },
+    {
+      "id": "local-rewrite",
+      "formats": [
+        "局部改写"
+      ],
+      "condition": "能力受限与请求很小",
+      "reuse": "local-rewrite",
+      "input": "已确认产品：WalkPocket Android，手动标记地点/文字，离线查看需事先联网下载地图，不导航。既定客户英国步行爱好者。用户只要求将“打开应用，即刻离线探索任何城市”改成准确自然的一句英文。不要整套定位报告。",
+      "gingiris": [
+        "gr-social-distill"
+      ]
+    }
+  ],
+  "updates": {
+    "id": "sequential-update",
+    "input": "这是首轮完成后的连续更新，读取你自己首轮的8项产物，不得读其他组。用户已授权第一部分D2将hero-scene的QueueNote读者从代理顾问改为企业内部招聘协调员（付款者HR主管），目标是下一场面试前检查状态；原能力不变，不补通知/共享。comparison仍面向代理团队，与该项目不同；Tprice新版本竞品TrackDesk GBP 69/工作区/月含5席位及10000记录，其余条件不变，旧GBP59失效。R2撤回customer-case的NorthLedger化名、原话、90/60分钟公开许可，仍允许公开匿名事实“用两份CSV对齐后人工核对”，1200/1250订单量也不再获公开授权；内部历史可以留，任何其他案例数据均先暂停公开。platform-pack新F2：FormRelay当前保留7天，最大同步间隔30分钟，不再是30天/15分钟，其他流程及读者不变。请直接输出所有受影响的新版完整资产：hero-scene首屏/场景页；comparison标题描述正文；customer-case正文；platform-pack各语言短帖、长串、轮播、视频镜头/字幕。保留不受影响句段，说明改动与撤回项及哪些其他首轮资产原样保留，不重做GTM。凡视频的口播/屏幕字、跨语言、标题CTA与正文都复查，不只追加脚注或待确认清单。不部署、不发布、不报价或实施实验。"
+  }
+}

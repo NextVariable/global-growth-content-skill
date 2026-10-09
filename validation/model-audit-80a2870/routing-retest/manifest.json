@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "id": "local-rewrite",
+      "input_sha256": "7a62782b50634f5483832afd3097667b1374924cd3743634b4b0e032fd4ac1aa",
+      "output_sha256": "e8ac00b6fe2b49b53c6d027f504452093f460a7ccb7707cda2f5af98d90e8e9e",
+      "output_path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/routing-retest/local-rewrite.md",
+      "loaded_materials": [
+        {
+          "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/retest-input.json",
+          "sha256": "6f4cd25f84b9e1c0d660d77f54bb18ed6a2550f6d05425cccf60dffa88ac0501",
+          "actual_read_range": "JSON parsed only to extract case id local-rewrite input; only that input exposed to model"
+        },
+        {
+          "path": "/private/tmp/global-growth-content-audit-revised/SKILL.md",
+          "sha256": "27faa5d7dc7ceac87f9751db4bb651461ab46ea79c2665504d0fdb98483d5d43",
+          "actual_read_range": "entire file"
+        }
+      ],
+      "model_settings": {
+        "inheritance": "inherited from parent",
+        "overrides": null
+      }
+    }
+  ]
+}

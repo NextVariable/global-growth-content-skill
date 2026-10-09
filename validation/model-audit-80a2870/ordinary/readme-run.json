@@ -1,0 +1,25 @@
+{
+  "command": [
+    "python3",
+    "csvpeek.py",
+    "sample.csv"
+  ],
+  "cwd": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/tests/fixtures/devtool",
+  "stdout": "{\"header\": [\"order_id\", \"total\"], \"rows\": 2}\n",
+  "stderr": "",
+  "exit_code": 0,
+  "environment": {
+    "python_version": "Python 3.14.3",
+    "platform": "macOS-26.3-arm64-arm-64bit-Mach-O",
+    "executable_command": "python3"
+  },
+  "python_version_command": {
+    "command": [
+      "python3",
+      "--version"
+    ],
+    "stdout": "Python 3.14.3\n",
+    "stderr": "",
+    "exit_code": 0
+  }
+}
