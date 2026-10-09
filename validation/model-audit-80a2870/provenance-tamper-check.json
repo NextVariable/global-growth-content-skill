@@ -1,0 +1,8 @@
+{
+  "before_errors": [],
+  "after_errors": [
+    "audit raw output changed: ours-after/platform-pack"
+  ],
+  "detected": true,
+  "scope": "Disposable copy only; originals untouched. Integrity detection does not grade semantics."
+}

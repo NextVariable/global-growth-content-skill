@@ -1,0 +1,67 @@
+{
+  "fixture_first_read_sha256": "6f4cd25f84b9e1c0d660d77f54bb18ed6a2550f6d05425cccf60dffa88ac0501",
+  "cases": {
+    "hero-scene": {
+      "id": "hero-scene",
+      "formats": [
+        "官网首屏",
+        "场景页"
+      ],
+      "condition": "资料不足但能力确认",
+      "reuse": "b2b-new",
+      "input": "用户授权测试产品 QueueNote：英国 10–30 人招聘代理公司的招聘顾问，已由第一部分选定，不要换细分。每天从 CSV 汇总候选人面试状态，主管周五核对遗漏。已实现 CSV 导入、状态筛选和待跟进列表；不接 ATS API，无自动发邮件。尚无客户、访谈、效果数据。付款者为代理公司老板，使用者为顾问。原产品句：“AI 驱动的全球人才招聘全流程平台，节省80%时间。”当前表格无需采购，团队熟悉。请求：改成英文首屏和简短内部信息主线，CTA 是了解工作流，附证据边界与后续交接。\n本轮交付额外要求：用完整英文首屏（标题、正文、CTA）及一份完整英文场景页，围绕周五主管核对遗漏；不要以原则或待确认清单替代正文。资料未给出UI按钮名、权限和价格，不补造。公开正文与内部说明分开。",
+      "gingiris": [
+        "go-to-market-playbook"
+      ]
+    },
+    "customer-case": {
+      "id": "customer-case",
+      "formats": [
+        "客户案例"
+      ],
+      "condition": "充分实施记录和有条件授权",
+      "input": "合成冻结客户案例，产品ReconcilePad，既定加拿大记账服务公司读者。授权记录R1允许用客户化名“NorthLedger”和以下数据/原话，照片未授权。任务：月末对齐电商订单CSV和付款CSV，原用Excel公式。实施：2026-08和09两次月末，分别输入1200和1250订单行；记账员把两份UTF-8文件按order_id完全匹配，导出差异清单，再到原记录逐笔核对。8月发现12个未匹配订单号、9月9个；其中均有晚到账或导出时间差，未测漏收款金额。记录L1：单个记账员8月使用原模板核对清单90分钟，9月用ReconcilePad首次核对清单60分钟；订单结构、熟练度与文件覆盖未控制，不证明因果或可推广节省。能力只CSV对齐、标缺失、导出，无银行/退款处理。获准短引语V1：“The list tells me where to start checking; it does not close the books for me.” 请求：完整英文客户案例，讲原任务、实施机制、可核验变化与限制，面向同行了解流程，CTA看两CSV工作流。不要变成纯注意事项，不写照片或自动省33%效果标题；另给内部来源/授权说明。",
+      "gingiris": [
+        "gr-blog-post",
+        "gingiris-seo-geo"
+      ]
+    },
+    "platform-pack": {
+      "id": "platform-pack",
+      "formats": [
+        "社交短帖",
+        "长串",
+        "轮播",
+        "短视频脚本",
+        "多语言改写"
+      ],
+      "condition": "受限能力与具体可演示流程",
+      "reuse": "multilingual",
+      "input": "合成冻结FormRelay。既定英国/法国小型活动组织者，了解阶段。能力F1：网站表单提交保存CSV，每工作区保留最近30天，两次同步运行的最大间隔15分钟（不保证逐条提交送达上限）；首次连接需要管理员授权，只支持网页表单，不支持电话、聊天、实时同步或效果数字。可演示资料D1：测试报名表仅name与session两字段，用Demo Guest/Workshop A；管理员授权一次表单连接；提交测试记录；下一次同步后CSV出现该记录；查看工作区30天保留说明。UI具体按钮名称和固定等待耗时未提供，不编造。公开素材均用合成记录，不出真人资料。请求：交付面向活动运营者的英文LinkedIn短帖、面向技术接入者的英文5段X长串、中文4页轮播（逐页完整文字及画面）、可拍25秒视频脚本（逐镜头操作、旁白字幕、素材条件），并将LinkedIn帖改成法文。各平台表达任务不同，不要同广告换名字；CTA都了解数据流程，无真实URL。附必要来源和第三/第五Skill交接。",
+      "gingiris": [
+        "gr-social-distill",
+        "gingiris-ugc-matrix"
+      ]
+    },
+    "local-rewrite": {
+      "id": "local-rewrite",
+      "formats": [
+        "局部改写"
+      ],
+      "condition": "能力受限与请求很小",
+      "reuse": "local-rewrite",
+      "input": "已确认产品：WalkPocket Android，手动标记地点/文字，离线查看需事先联网下载地图，不导航。既定客户英国步行爱好者。用户只要求将“打开应用，即刻离线探索任何城市”改成准确自然的一句英文。不要整套定位报告。",
+      "gingiris": [
+        "gr-social-distill"
+      ]
+    },
+    "conflicting-claim": {
+      "id": "conflicting-claim",
+      "formats": [
+        "scenario-page",
+        "source-conflict"
+      ],
+      "input": "用户已确定FormRelay面向英国活动运营者，本文只解释网站报名到CSV，读者只想了解。F1：网页表单提交保存CSV，首次管理员授权，两次同步运行间隔不超过15分钟，这不保证逐条送达；不支持电话或聊天，不实时。F2与F3都是同日同工作区保留说明，一个写最近30天、一个写最近7天，权限与套餐相同，没有supersedes，不知道哪个有效。旧场景页标题Where does a website registration go?，正文承诺Keep every registration for 30 days；CTA See the data workflow。请更新该场景页，交付完整英文正文和必要的内部说明；完成不受冲突影响的部分，只暂停冲突主张，不自行挑7天或30天，不重做市场选择。不使用未确认按钮名，不编实际截图、链接、效果数字。用户没有授权发布。"
+    }
+  }
+}

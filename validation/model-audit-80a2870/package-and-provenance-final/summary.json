@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "portable-package",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "task-provenance",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "content-audit-provenance",
+      "passed": true,
+      "errors": []
+    }
+  ],
+  "limits": "Package and provenance checks only; see human semantic review separately. Synthetic tasks are not customer comprehension, channel delivery or growth evidence."
+}

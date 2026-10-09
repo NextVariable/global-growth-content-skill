@@ -1,0 +1,12 @@
+{
+  "required_local_checks_passed": true,
+  "module_validation": "package-and-provenance-final/summary.json",
+  "root_selected_entry": "python3 共用工具/validate.py --skill global-growth-content: exit 0",
+  "skill_creator_validation": "Skill is valid; exit 0",
+  "ruff_check": "exit 0",
+  "ruff_format_check": "exit 0",
+  "git_diff_check": "exit 0",
+  "tamper_probe": "provenance-tamper-check.json",
+  "supplementary_runtime_limit": "Python 3.10 temporary runtime failed before csvpeek execution; see runtime-and-lint-checks.json",
+  "limits": "Local integrity/package/code checks, not content or market quality acceptance; no remote CI execution."
+}

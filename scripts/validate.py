@@ -111,6 +111,7 @@ def run(output):
     for name, function, argument in (
         ("portable-package", package_errors, SKILL),
         ("task-provenance", provenance_errors, ROOT),
+        ("content-audit-provenance", content_audit_errors, ROOT),
     ):
         try:
             errors = function(argument)
@@ -127,6 +128,41 @@ def run(output):
         json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     return report
+
+
+def content_audit_errors(root):
+    """Validate saved model-run inputs and raw outputs, never their quality."""
+    fixture = json.loads((root / "tests/fixtures/content-audit.json").read_text(encoding="utf-8"))
+    cases = {case["id"]: case for case in fixture["cases"]}
+    update = {fixture["updates"]["id"]: fixture["updates"]}
+    audit = root / "validation/model-audit-80a2870"
+    retest = json.loads((audit / "retest-input.json").read_text(encoding="utf-8"))
+    rerun_cases = {case["id"]: case for case in retest["cases"]}
+    runs = [(group, cases) for group in ("ordinary", "gingiris", "ours-before")]
+    runs += [(group + "-update", update) for group in ("ordinary", "gingiris", "ours-before")]
+    runs += [("ours-after", rerun_cases)]
+    followup = json.loads((audit / "retest-update-input.json").read_text(encoding="utf-8"))
+    runs += [("ours-after-update", {followup["id"]: followup})]
+    runs += [("routing-retest", {"local-rewrite": cases["local-rewrite"]})]
+    errors = []
+    for group, expected in runs:
+        manifest = json.loads((audit / group / "manifest.json").read_text(encoding="utf-8"))
+        records = manifest["cases"] if "cases" in manifest else [manifest]
+        if len(records) != len(expected) or {r["id"] for r in records} != set(expected):
+            errors.append(f"audit case coverage differs: {group}")
+        for record in records:
+            case_id = record["id"]
+            if case_id not in expected:
+                continue
+            digest = hashlib.sha256(expected[case_id]["input"].encode()).hexdigest()
+            if record.get("input_sha256") != digest:
+                errors.append(f"audit input differs: {group}/{case_id}")
+            output = audit / group / f"{case_id}.md"
+            if not output.is_file() or not output.read_text(encoding="utf-8").strip():
+                errors.append(f"missing audit output: {group}/{case_id}")
+            elif record.get("output_sha256") != hashlib.sha256(output.read_bytes()).hexdigest():
+                errors.append(f"audit raw output changed: {group}/{case_id}")
+    return errors
 
 
 def main():

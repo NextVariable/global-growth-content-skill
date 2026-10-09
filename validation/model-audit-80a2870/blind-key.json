@@ -1,0 +1,42 @@
+{
+  "hero-scene": {
+    "A": "ordinary",
+    "B": "ours-before",
+    "C": "gingiris"
+  },
+  "comparison": {
+    "A": "ours-before",
+    "B": "gingiris",
+    "C": "ordinary"
+  },
+  "tutorial-update": {
+    "A": "ours-before",
+    "B": "gingiris",
+    "C": "ordinary"
+  },
+  "customer-case": {
+    "A": "ordinary",
+    "B": "gingiris",
+    "C": "ours-before"
+  },
+  "readme": {
+    "A": "gingiris",
+    "B": "ours-before",
+    "C": "ordinary"
+  },
+  "platform-pack": {
+    "A": "ours-before",
+    "B": "gingiris",
+    "C": "ordinary"
+  },
+  "creative-control": {
+    "A": "gingiris",
+    "B": "ours-before",
+    "C": "ordinary"
+  },
+  "local-rewrite": {
+    "A": "ours-before",
+    "B": "ordinary",
+    "C": "gingiris"
+  }
+}
