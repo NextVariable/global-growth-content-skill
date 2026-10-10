@@ -1,5 +1,7 @@
 # 验证范围与复现
 
+公开记录中的本机定位信息已脱敏；原始文件保留在本地忽略目录，未覆盖。输入和输出的原始 SHA 保持不变，公开副本的 SHA 与转换范围另记在 [public-export.json](public-export.json)。校验同时核对原始哈希身份和公开副本字节，不能将脱敏副本称为逐字原稿，也不能把位置脱敏当成新的模型执行。`snapshot://`、`local-comparator://`、`local-tool://` 与 `runtime://` 仅为记录中的逻辑定位符，不是安装依赖或可执行命令。
+
 对提交80a2870新增方法的后续实际运行审查见 [model-audit-80a2870/report.md](model-audit-80a2870/report.md)：三组同输入原稿、逐任务加载记录、匿名语义审查、连续变更、修订与独立上下文复测均另存。该记录补充原有合成案例测试，不覆盖旧稿，不以原稿完整性检查宣称内容质量合格。
 
 输入在 [cases.json](../tests/fixtures/cases.json)。全部为合成产品、合成访谈/付款与冻结竞品材料；真实任务类型执行不等于真实客户研究。覆盖无客户 B2B、已有付费但表达混乱、消费 App、开发者工具、硬件订阅、多语言多平台，以及客户改变、角色差异、无效果证据、迁移、竞品更新、局部改写、了解 CTA、交接冲突和搜索内容。
@@ -20,4 +22,4 @@
 
 最终采用稿：B2B、冲突交接、硬件场景使用 `skill-v2/` 对应文件；多语言使用 [skill-v3/multilingual.md](skill-v3/multilingual.md)；其余10项保留 `skill-v1/` 原稿。独立复审已确认已发现问题在这些修复稿中消失，没有把该结论升级成真实客户或增长验证。原始普通提示和所有失败稿仍可查，禁止用最终选稿覆盖历史。
 
-本地验证汇总见 [check-results.json](check-results.json)，原始输出哈希改写检测见 [provenance-tamper-check.json](provenance-tamper-check.json)。检测通过意味着确实能识别原稿被改写，不意味着语义自动判优。当前安装文件快照在 [implementation-manifest.json](implementation-manifest.json)。
+本地验证汇总见 [check-results.json](check-results.json)，原始输出哈希改写检测见 [provenance-tamper-check.json](provenance-tamper-check.json)。检测通过意味着确实能识别原稿被改写，不意味着语义自动判优。[implementation-manifest.json](implementation-manifest.json) 是2026-10-09早期实现的历史快照；后续方法修订快照见 [model-audit-80a2870/revised-snapshot.json](model-audit-80a2870/revised-snapshot.json)，不能用历史快照当当前版本验收。

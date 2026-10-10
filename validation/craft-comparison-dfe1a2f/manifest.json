@@ -1,0 +1,14 @@
+{
+  "skill_commit": "dfe1a2f",
+  "mode": "Same-assistant sequential guided writing probes, not isolated model runs or a blind comparison. Author has seen both methods and prior outputs; cross-contamination and author judgement are unavoidable.",
+  "inputs": "Synthetic; no real customer/product claims; no command actually run for ColPick.",
+  "scope": "README, task tutorial, professional post and technical thread. Both groups share inputs. Group labels identify intended guidance, not independently enforced context isolation.",
+  "outputs": {
+    "article-ours.md": "46c1ef5afb420120c9553bb59e2edb5def22e4136e7c1486c071986f65ee66d5",
+    "social-gingiris.md": "406e62d7cd3d2dcff829b569f66fe374a35bdef3f5f87a2f328c4d7eeaa350d2",
+    "readme-gingiris.md": "1a10fb9df80351ddbfd16242f78f7a904ec9b34249d9dd75cac451933f07f084",
+    "social-ours.md": "84971134042f64782a64eb6f9826298e49bde663dd9e0b27c8c800c03a3203e6",
+    "readme-ours.md": "0280713428c02716fd79b9981fca452a123657aab7baf0fc5ee7c065db846db6",
+    "article-gingiris.md": "a027a38a49f1626ad0c74367a63bb865198c7810e6b5578537dfbe44670dac48"
+  }
+}

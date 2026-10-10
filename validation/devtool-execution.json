@@ -26,7 +26,7 @@
     },
     {
       "argv": [
-        "/private/tmp/monad-python-runtimes/cpython-3.10.21-macos-aarch64-none/bin/python3.10",
+        "runtime://python/cpython-3.10.21-macos-aarch64-none/bin/python3.10",
         "csvpeek.py",
         "sample.csv"
       ],
@@ -38,7 +38,7 @@
     },
     {
       "argv": [
-        "/private/tmp/monad-python-runtimes/cpython-3.10.21-macos-aarch64-none/bin/python3.10",
+        "runtime://python/cpython-3.10.21-macos-aarch64-none/bin/python3.10",
         "csvpeek.py",
         "missing-file.csv"
       ],

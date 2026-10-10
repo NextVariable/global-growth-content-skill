@@ -1,0 +1,77 @@
+{
+  "case": "real-skill-adoption",
+  "group": "ordinary",
+  "task_input": "请基于product-evidence.json中的真实产品材料，完成可用成稿，不交付只有原则或目录。用户目标是推广这个真实Skill的理解与首次采用。固定读者、证据范围和许可见材料，不换市场，不执行发布、投放、销售或实验。六项产物：positioning.md（中文内部定位和可复用信息主线，英文一句话、核心/辅助主张、差异/适用条件、证明、疑虑与禁止宣称）；hero.md（完整英文官网首屏，明确这是什么、读者情境、机制/价值及真实下一步）；tutorial.md（完整英文首次使用教程，解释已有目标和产品brief如何进入Skill并形成一个可核验首屏，步骤、可观察结果和失败处理，使用本Skill本身的真实资料作例子，不造第二个产品）；README.md（完整英文开发者README，帮助获取安装单元和完成第一次任务，可运行命令及范围，勿发明包/运行时/模型接口）；platform.md（英语LinkedIn短帖、英语X技术长串、英语轮播逐页完整文案和画面要求，各自适配不同任务而非同广告缩写）；video.md（完整35秒英语短视频，按能拍的客户端/文件操作给镜头、口播、字幕、条件与了解/首次使用CTA，真实操作等待可标示跳切，不编已制作素材）。没有已确认多语言需求，本轮不另做翻译。每项说明读者、情境、目的、证据及可行下一步；必要条件在公开稿，素材状态及未验证假设另放内部说明。GitHub仓库及README是真实入口，可引用P1-P7来源ID。没有付款流程，不强塞购买CTA。没有模型效果数据，不承诺省时比例或质量一定更好。程序核验只能用共同提供的源文件与已核验安装记录，不联网、不写全局技能目录；不要把本机绝对路径写入公开输出。",
+  "task_input_sha256": "29d165f0c580e08ff0be3e5cccab53ed44afb259017aa78078b28df2d2953d28",
+  "task_declared_evidence_sha256": "c135301ed99b0044f99ca5bf88d6c4120c0a39acd5c1ddaf93b4ba488140baf6",
+  "shared_materials_sha256": {
+    "validation/final-acceptance-20261010/task.json": "9b2d7ece179afe3c125ce8e26152286da424c45a6dd6d75d42c8435157117957",
+    "validation/final-acceptance-20261010/product-evidence.json": "c135301ed99b0044f99ca5bf88d6c4120c0a39acd5c1ddaf93b4ba488140baf6",
+    "validation/final-acceptance-20261010/isolated-package.json": "526a3d2de21243ce7fce453f5e704546e3924aefc62bf962568c69e446210dea"
+  },
+  "outputs_sha256": {
+    "ordinary/positioning.md": "db691a31f2ded4f40811f8720b9ae450c9d741188d8249ab9c15a0ef455eacb3",
+    "ordinary/hero.md": "fb31d0ba63db14940d81706355a33bf5399b71be51731befb053b8fce7281a56",
+    "ordinary/tutorial.md": "6fa7a69fe0e18919c2a0a34b4326f6a29258afe6e5d42e532a6cd63b162fada5",
+    "ordinary/README.md": "65abb57a9d3a6ee264a030bc5fd8c50771a39c2193acaca83247021844db81df",
+    "ordinary/platform.md": "44a83db583b9b6d7de783d694157eb4e84351d3061e56f7b697acae0f8d0a5f9",
+    "ordinary/video.md": "8981c0b5bf8b078fbf77057941ca198d04997928d3df8746c72d666cecfab870"
+  },
+  "model_settings": {
+    "selection": "inherited parent model",
+    "model_override": null,
+    "reasoning_override": null,
+    "exact_model_id": "not exposed to this agent",
+    "exact_reasoning_effort": "not exposed to this agent",
+    "declared_agent_identity": "Codex based on GPT-6",
+    "content_skill_loaded": false
+  },
+  "loaded_files": [
+    {
+      "logical_path": "validation/final-acceptance-20261010/task.json",
+      "sha256": "9b2d7ece179afe3c125ce8e26152286da424c45a6dd6d75d42c8435157117957"
+    },
+    {
+      "logical_path": "validation/final-acceptance-20261010/product-evidence.json",
+      "sha256": "c135301ed99b0044f99ca5bf88d6c4120c0a39acd5c1ddaf93b4ba488140baf6"
+    },
+    {
+      "logical_path": "validation/final-acceptance-20261010/isolated-package.json",
+      "sha256": "526a3d2de21243ce7fce453f5e704546e3924aefc62bf962568c69e446210dea"
+    }
+  ],
+  "execution_scope": {
+    "generated": "Six complete drafts from task.input and the three shared input files; each saved once with exclusive-create mode immediately after drafting.",
+    "allowed_inputs_used": "Only task.json, product-evidence.json and isolated-package.json. No tested SKILL.md, reference file, other group output, historical test/review, private customer material or content Skill read.",
+    "tools_used": "Local shell/Python for input reads, exclusive output writes, SHA256 and output checks. Parent coordination messages.",
+    "network_used": false,
+    "git_used": false,
+    "real_install_or_source_changed": false,
+    "external_system_changed": false,
+    "verification": "Verified presence of six files and hashes; checked X post lengths and public-output privacy patterns. Relied on shared isolated installation record without claiming a new installation.",
+    "gaps": [
+      "No current repository/network inspection performed.",
+      "README shell examples supplied but not executed as installs.",
+      "No actual client discovery or Skill invocation performed.",
+      "No screenshots, carousel assets, audio or video produced.",
+      "No effectiveness, audience-demand or commercial outcome validation.",
+      "Exact inherited model ID and reasoning setting unavailable in the agent tool context."
+    ],
+    "source_version_boundary": "Shared snapshot: local methods 6b57209; remote 994b27b. No latest-public-version claim."
+  },
+  "local_checks": {
+    "six_outputs_present": true,
+    "x_post_characters": [
+      216,
+      218,
+      226,
+      216,
+      245,
+      236,
+      227,
+      241
+    ],
+    "x_posts_under_280": true,
+    "no_local_absolute_path_or_email_in_outputs": true
+  }
+}
