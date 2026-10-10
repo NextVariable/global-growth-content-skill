@@ -2,8 +2,8 @@
   "checks": [
     {
       "command": {
-        "cmd": "/opt/anaconda3/bin/python /Users/francis/.codex/skills/.system/skill-creator/scripts/quick_validate.py skills/global-growth-content",
-        "workdir": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容",
+        "cmd": "/opt/anaconda3/bin/python local-tool://skill-creator/scripts/quick_validate.py skills/global-growth-content",
+        "workdir": ".",
         "max_output_tokens": 500
       },
       "result": {
@@ -20,7 +20,7 @@
     {
       "command": {
         "cmd": "/opt/anaconda3/bin/ruff check scripts/validate.py",
-        "workdir": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容",
+        "workdir": ".",
         "max_output_tokens": 500
       },
       "result": {
@@ -36,8 +36,8 @@
     },
     {
       "command": {
-        "cmd": "/private/tmp/monad-python-runtimes/cpython-3.10.21-macos-aarch64-none/bin/python3.10 csvpeek.py sample.csv",
-        "workdir": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/tests/fixtures/devtool",
+        "cmd": "runtime://python/cpython-3.10.21-macos-aarch64-none/bin/python3.10 csvpeek.py sample.csv",
+        "workdir": "./tests/fixtures/devtool",
         "max_output_tokens": 500
       },
       "result": {
@@ -47,14 +47,14 @@
           "wall_time_seconds": 0.024770542,
           "exit_code": 1,
           "original_token_count": 326,
-          "output": "Could not find platform independent libraries <prefix>\nConsider setting $PYTHONHOME to <prefix>[:<exec_prefix>]\nPython path configuration:\n  PYTHONHOME = (not set)\n  PYTHONPATH = (not set)\n  program name = '/private/tmp/monad-python-runtimes/cpython-3.10.21-macos-aarch64-none/bin/python3.10'\n  isolated = 0\n  environment = 1\n  user site = 1\n  import site = 1\n  sys._base_executable = '/private/tmp/monad-python-runtimes/cpython-3.10.21-macos-aarch64-none/bin/python3.10'\n  sys.base_prefix = '/install'\n  sys.base_exec_prefix = '/private/tmp/monad-python-runtimes/cpython-3.10.21-macos-aarch64-none'\n  sys.platlibdir = 'lib'\n  sys.executable = '/private/tmp/monad-python-runtimes/cpython-3.10.21-macos-aarch64-none/bin/python3.10'\n  sys.prefix = '/install'\n  sys.exec_prefix = '/private/tmp/monad-python-runtimes/cpython-3.10.21-macos-aarch64-none'\n  sys.path = [\n    '/install/lib/python310.zip',\n    '/install/lib/python3.10',\n    '/private/tmp/monad-python-runtimes/cpython-3.10.21-macos-aarch64-none/lib/python3.10/lib-dynload',\n  ]\nFatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding\nPython runtime state: core initialized\nModuleNotFoundError: No module named 'encodings'\n\nCurrent thread 0x000000020242b100 (most recent call first):\n  <no Python frame>\n"
+          "output": "Could not find platform independent libraries <prefix>\nConsider setting $PYTHONHOME to <prefix>[:<exec_prefix>]\nPython path configuration:\n  PYTHONHOME = (not set)\n  PYTHONPATH = (not set)\n  program name = 'runtime://python/cpython-3.10.21-macos-aarch64-none/bin/python3.10'\n  isolated = 0\n  environment = 1\n  user site = 1\n  import site = 1\n  sys._base_executable = 'runtime://python/cpython-3.10.21-macos-aarch64-none/bin/python3.10'\n  sys.base_prefix = '/install'\n  sys.base_exec_prefix = 'runtime://python/cpython-3.10.21-macos-aarch64-none'\n  sys.platlibdir = 'lib'\n  sys.executable = 'runtime://python/cpython-3.10.21-macos-aarch64-none/bin/python3.10'\n  sys.prefix = '/install'\n  sys.exec_prefix = 'runtime://python/cpython-3.10.21-macos-aarch64-none'\n  sys.path = [\n    '/install/lib/python310.zip',\n    '/install/lib/python3.10',\n    'runtime://python/cpython-3.10.21-macos-aarch64-none/lib/python3.10/lib-dynload',\n  ]\nFatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding\nPython runtime state: core initialized\nModuleNotFoundError: No module named 'encodings'\n\nCurrent thread 0x000000020242b100 (most recent call first):\n  <no Python frame>\n"
         }
       }
     },
     {
       "command": {
         "cmd": "git diff --check",
-        "workdir": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容",
+        "workdir": ".",
         "max_output_tokens": 500
       },
       "result": {

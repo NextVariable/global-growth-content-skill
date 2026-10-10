@@ -39,7 +39,7 @@ For individual use, inspect the output before writing an importer. For a team, a
 
 ## Execution evidence
 
-Working directory: `/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/tests/fixtures/devtool`.
+Working directory: `./tests/fixtures/devtool`.
 
 Commands actually run:
 

@@ -4,62 +4,62 @@
       "id": "sequential-update",
       "input_sha256": "38c5ba1ddad7b60d71108e654ad355fd97a97957142cb3369c84716684d8bd76",
       "output_sha256": "6088857f8f6ceee35dc0362cea0de7273c4db1d0f996b93544ea557d051074b2",
-      "output_path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ours-before-update/sequential-update.md",
+      "output_path": "./validation/model-audit-80a2870/ours-before-update/sequential-update.md",
       "loaded_materials": [
         {
-          "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/tests/fixtures/content-audit.json",
+          "path": "./tests/fixtures/content-audit.json",
           "sha256": "6c0336390f4907623e44a8feb8adbdfed5bf36a667a94a44e1f4560da5049a6e"
         },
         {
-          "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ours-before/hero-scene.md",
+          "path": "./validation/model-audit-80a2870/ours-before/hero-scene.md",
           "sha256": "fb00c908404ad5ceef7d63f19bbac075ca28069add4ac495ccb51a0e297503c7"
         },
         {
-          "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ours-before/comparison.md",
+          "path": "./validation/model-audit-80a2870/ours-before/comparison.md",
           "sha256": "697a016d038bef7adfd0ee674037ed7414955b5387d8ed4e8f8487ba06c067c7"
         },
         {
-          "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ours-before/tutorial-update.md",
+          "path": "./validation/model-audit-80a2870/ours-before/tutorial-update.md",
           "sha256": "1d0b40f98d95d5ea3ee5762c5e38083bf32a5a0644e2ab087e1785eb3993e94f"
         },
         {
-          "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ours-before/customer-case.md",
+          "path": "./validation/model-audit-80a2870/ours-before/customer-case.md",
           "sha256": "cb51feb9f36aa7388000a7c7cec007398620a087f855b6445eabd0e8a87cd162"
         },
         {
-          "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ours-before/readme.md",
+          "path": "./validation/model-audit-80a2870/ours-before/readme.md",
           "sha256": "e3097e5042b4810b4f741c0f372bc393e8dd616c6bdd88bd5275311565430407"
         },
         {
-          "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ours-before/platform-pack.md",
+          "path": "./validation/model-audit-80a2870/ours-before/platform-pack.md",
           "sha256": "3009e1b68ed3242b27773d8893df628d56ef1a651698b4c10b13688e653586ae"
         },
         {
-          "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ours-before/creative-control.md",
+          "path": "./validation/model-audit-80a2870/ours-before/creative-control.md",
           "sha256": "85890081d77183061f159aec4ef1dc8975b679b90b3653ab7dd920f1d99e6e74"
         },
         {
-          "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ours-before/local-rewrite.md",
+          "path": "./validation/model-audit-80a2870/ours-before/local-rewrite.md",
           "sha256": "0d4865fa88e7a40a4901754d6ed57df442ce69880c5484428800fab13f6588e4"
         },
         {
-          "path": "/private/tmp/global-growth-content-80a2870-audit/SKILL.md",
+          "path": "snapshot://global-growth-content-80a2870/SKILL.md",
           "sha256": "214ecbb832152bb6e556ce800a753dc443c61dff4128812e6138f3c1f0af02fb"
         },
         {
-          "path": "/private/tmp/global-growth-content-80a2870-audit/references/positioning-and-language.md",
+          "path": "snapshot://global-growth-content-80a2870/references/positioning-and-language.md",
           "sha256": "235feb4db42f6d25d364a2847d20768f4a9a3a3def9210d4d6ca1c5b13a48ee7"
         },
         {
-          "path": "/private/tmp/global-growth-content-80a2870-audit/references/pages-and-comparisons.md",
+          "path": "snapshot://global-growth-content-80a2870/references/pages-and-comparisons.md",
           "sha256": "737c438c4777693330bb12bd208ae73427a71c8b21cc5a1a2234cafe4b53b0e0"
         },
         {
-          "path": "/private/tmp/global-growth-content-80a2870-audit/references/provenance-and-handoff.md",
+          "path": "snapshot://global-growth-content-80a2870/references/provenance-and-handoff.md",
           "sha256": "762c78f8d108a7ed46b16f878bc174d40191fce0cef49a6a9737a984b200e3e0"
         },
         {
-          "path": "/private/tmp/global-growth-content-80a2870-audit/references/adaptation.md",
+          "path": "snapshot://global-growth-content-80a2870/references/adaptation.md",
           "sha256": "4f8a025d129ad00ab24dfa53ec7dbd8bd4af83648ead4f8f08a6fcf1c637f748"
         }
       ],
@@ -71,56 +71,56 @@
   "first_pass_files": [
     {
       "id": "hero-scene",
-      "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ours-before/hero-scene.md",
+      "path": "./validation/model-audit-80a2870/ours-before/hero-scene.md",
       "sha256": "fb00c908404ad5ceef7d63f19bbac075ca28069add4ac495ccb51a0e297503c7",
       "unchanged_file": true,
       "public_asset_status": "superseded-by-sequential-update"
     },
     {
       "id": "comparison",
-      "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ours-before/comparison.md",
+      "path": "./validation/model-audit-80a2870/ours-before/comparison.md",
       "sha256": "697a016d038bef7adfd0ee674037ed7414955b5387d8ed4e8f8487ba06c067c7",
       "unchanged_file": true,
       "public_asset_status": "superseded-by-sequential-update"
     },
     {
       "id": "tutorial-update",
-      "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ours-before/tutorial-update.md",
+      "path": "./validation/model-audit-80a2870/ours-before/tutorial-update.md",
       "sha256": "1d0b40f98d95d5ea3ee5762c5e38083bf32a5a0644e2ab087e1785eb3993e94f",
       "unchanged_file": true,
       "public_asset_status": "retained-current"
     },
     {
       "id": "customer-case",
-      "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ours-before/customer-case.md",
+      "path": "./validation/model-audit-80a2870/ours-before/customer-case.md",
       "sha256": "cb51feb9f36aa7388000a7c7cec007398620a087f855b6445eabd0e8a87cd162",
       "unchanged_file": true,
       "public_asset_status": "superseded-by-sequential-update"
     },
     {
       "id": "readme",
-      "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ours-before/readme.md",
+      "path": "./validation/model-audit-80a2870/ours-before/readme.md",
       "sha256": "e3097e5042b4810b4f741c0f372bc393e8dd616c6bdd88bd5275311565430407",
       "unchanged_file": true,
       "public_asset_status": "retained-current"
     },
     {
       "id": "platform-pack",
-      "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ours-before/platform-pack.md",
+      "path": "./validation/model-audit-80a2870/ours-before/platform-pack.md",
       "sha256": "3009e1b68ed3242b27773d8893df628d56ef1a651698b4c10b13688e653586ae",
       "unchanged_file": true,
       "public_asset_status": "superseded-by-sequential-update"
     },
     {
       "id": "creative-control",
-      "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ours-before/creative-control.md",
+      "path": "./validation/model-audit-80a2870/ours-before/creative-control.md",
       "sha256": "85890081d77183061f159aec4ef1dc8975b679b90b3653ab7dd920f1d99e6e74",
       "unchanged_file": true,
       "public_asset_status": "retained-current"
     },
     {
       "id": "local-rewrite",
-      "path": "/Users/francis/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ours-before/local-rewrite.md",
+      "path": "./validation/model-audit-80a2870/ours-before/local-rewrite.md",
       "sha256": "0d4865fa88e7a40a4901754d6ed57df442ce69880c5484428800fab13f6588e4",
       "unchanged_file": true,
       "public_asset_status": "retained-current"

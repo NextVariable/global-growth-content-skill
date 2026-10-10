@@ -1,0 +1,21 @@
+{
+  "performed_on": "2026-10-10",
+  "source_version": "6b57209 methods; publication-only working changes do not alter installed methods",
+  "installation_unit": "skills/global-growth-content",
+  "isolated_destination": "temporary-client-skills/global-growth-content",
+  "files": {
+    "LICENSE": "4f18feab6cac96e3e33da744be4cd74db6b779326008bfaf2b3243ecf16811ca",
+    "SKILL.md": "27faa5d7dc7ceac87f9751db4bb651461ab46ea79c2665504d0fdb98483d5d43",
+    "references/pages-and-comparisons.md": "737c438c4777693330bb12bd208ae73427a71c8b21cc5a1a2234cafe4b53b0e0",
+    "references/provenance-and-handoff.md": "746c27d117efc07a4622be603b9e1a92bc095d30d419c7bb191d8fb4f7115f69",
+    "references/adaptation.md": "d0251d4448303791501d0ecdfdc6273c49a818a263d880c4bfa1b61e5986301a",
+    "references/search-content.md": "c6cebae043008a6a7cbde1f8d3580ba4ddd943339aa68a3f706af68fc4bd24bf",
+    "references/developer-adoption.md": "27570ebcc6ae4e81f4b5cc4336165d54f02fdbdcbea0a5304d645017d9ba85d2",
+    "references/positioning-and-language.md": "235feb4db42f6d25d364a2847d20768f4a9a3a3def9210d4d6ca1c5b13a48ee7",
+    "agents/openai.yaml": "bacd037690edbda863ffad278272ccd36eca3e33ae9747cc5b929ae3d7da5e72",
+    "templates/content-handoff.md": "6592e368995980e8b93f4c3d2f9ebad88904c19dfffdbc9f6703b6febd253d07"
+  },
+  "package_errors": [],
+  "file_count": 10,
+  "verification_scope": "Actual copy into an isolated directory and source/link validation. No global installation or automatic client discovery checked."
+}
