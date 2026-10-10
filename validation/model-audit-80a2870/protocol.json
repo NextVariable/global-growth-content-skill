@@ -1,6 +1,6 @@
 {
   "commit_under_test": "80a287080c07ce69fe1342a4ba9d72453ab36eea",
-  "frozen_skill_path": "/private/tmp/global-growth-content-80a2870-audit",
+  "frozen_skill_path": "temporary-runtime",
   "skill_resources": {
     "LICENSE": "4f18feab6cac96e3e33da744be4cd74db6b779326008bfaf2b3243ecf16811ca",
     "SKILL.md": "214ecbb832152bb6e556ce800a753dc443c61dff4128812e6138f3c1f0af02fb",
@@ -15,27 +15,27 @@
   },
   "gingiris_entries": {
     "gr-readme": {
-      "path": "[local-workspace]/.codex/skills/gr-readme/SKILL.md",
+      "path": "local-comparator://gr-readme/SKILL.md",
       "sha256": "9d6072a611028e04f089e5cc81c6098d8c3aa9c933fb0a46eb4e0853440c5fc3"
     },
     "gr-blog-post": {
-      "path": "[local-workspace]/.codex/skills/gr-blog-post/SKILL.md",
+      "path": "local-comparator://gr-blog-post/SKILL.md",
       "sha256": "f3c8969b2b5d29dfb23183bce4aa5e556c21c66fdb46a193ba69279ae461b1e4"
     },
     "gr-social-distill": {
-      "path": "[local-workspace]/.codex/skills/gr-social-distill/SKILL.md",
+      "path": "local-comparator://gr-social-distill/SKILL.md",
       "sha256": "2674fa563a1346a46d5aa1e63340876ea0d784a85e588c3b6ab16f29ee90faa5"
     },
     "gingiris-seo-geo": {
-      "path": "[local-workspace]/.codex/skills/gingiris-seo-geo/SKILL.md",
+      "path": "local-comparator://gingiris-seo-geo/SKILL.md",
       "sha256": "658ab1bd7ade6f8e53cd7ac1fe63432173d85f9c42601f8730fb818341bdb89c"
     },
     "gingiris-ugc-matrix": {
-      "path": "[local-workspace]/.codex/skills/gingiris-ugc-matrix/SKILL.md",
+      "path": "local-comparator://gingiris-ugc-matrix/SKILL.md",
       "sha256": "de2c9c0a166dff2677c51c0a376ab1121127b567ada45d87d7b79ac9a502f803"
     },
     "go-to-market-playbook": {
-      "path": "[local-workspace]/.codex/skills/go-to-market-playbook/SKILL.md",
+      "path": "local-comparator://go-to-market-playbook/SKILL.md",
       "sha256": "32deac7973afc90ca9dbe24f379d9b04215a58f3d4230195be64543985c9adcc"
     }
   },

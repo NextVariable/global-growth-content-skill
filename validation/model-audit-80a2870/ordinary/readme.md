@@ -57,7 +57,7 @@ The sample command above was run against the supplied script and sample file usi
 
 # Internal execution record
 
-Actual directory: `[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/tests/fixtures/devtool/`.
+Actual directory: `./tests/fixtures/devtool/`.
 
 Command: `python3 csvpeek.py sample.csv`.
 

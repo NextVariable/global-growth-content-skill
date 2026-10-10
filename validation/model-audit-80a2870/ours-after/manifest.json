@@ -11,7 +11,7 @@
     "git_writes": false
   },
   "fixture": {
-    "path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/retest-input.json",
+    "path": "./validation/model-audit-80a2870/retest-input.json",
     "first_read_sha256": "6f4cd25f84b9e1c0d660d77f54bb18ed6a2550f6d05425cccf60dffa88ac0501",
     "final_sha256": "6f4cd25f84b9e1c0d660d77f54bb18ed6a2550f6d05425cccf60dffa88ac0501",
     "first_observed_ids": [
@@ -37,36 +37,36 @@
       "id": "hero-scene",
       "input_sha256": "ce9796633c9ac1f626ba60dd3372927aef3fb9de97365348014921491cf978c7",
       "input_hash_scope": "UTF-8 bytes of case.input string",
-      "output_path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ours-after/hero-scene.md",
+      "output_path": "./validation/model-audit-80a2870/ours-after/hero-scene.md",
       "output_sha256": "68e7e44903bfe18f2662aa6df811bff32f9f3bf54c482fb3ef22d7398bb9c2f0",
       "loaded_materials": [
         {
-          "path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/retest-input.json#cases/hero-scene",
+          "path": "./validation/model-audit-80a2870/retest-input.json#cases/hero-scene",
           "sha256": "ce9796633c9ac1f626ba60dd3372927aef3fb9de97365348014921491cf978c7",
           "hash_scope": "case.input UTF-8"
         },
         {
-          "path": "/private/tmp/global-growth-content-audit-revised/SKILL.md",
+          "path": "snapshot://global-growth-content-revised/SKILL.md",
           "sha256": "27faa5d7dc7ceac87f9751db4bb651461ab46ea79c2665504d0fdb98483d5d43"
         },
         {
-          "path": "/private/tmp/global-growth-content-audit-revised/references/positioning-and-language.md",
+          "path": "snapshot://global-growth-content-revised/references/positioning-and-language.md",
           "sha256": "235feb4db42f6d25d364a2847d20768f4a9a3a3def9210d4d6ca1c5b13a48ee7"
         },
         {
-          "path": "/private/tmp/global-growth-content-audit-revised/references/pages-and-comparisons.md",
+          "path": "snapshot://global-growth-content-revised/references/pages-and-comparisons.md",
           "sha256": "737c438c4777693330bb12bd208ae73427a71c8b21cc5a1a2234cafe4b53b0e0"
         },
         {
-          "path": "/private/tmp/global-growth-content-audit-revised/references/adaptation.md",
+          "path": "snapshot://global-growth-content-revised/references/adaptation.md",
           "sha256": "d0251d4448303791501d0ecdfdc6273c49a818a263d880c4bfa1b61e5986301a"
         },
         {
-          "path": "/private/tmp/global-growth-content-audit-revised/references/provenance-and-handoff.md",
+          "path": "snapshot://global-growth-content-revised/references/provenance-and-handoff.md",
           "sha256": "746c27d117efc07a4622be603b9e1a92bc095d30d419c7bb191d8fb4f7115f69"
         },
         {
-          "path": "/private/tmp/global-growth-content-audit-revised/references/search-content.md",
+          "path": "snapshot://global-growth-content-revised/references/search-content.md",
           "sha256": "c6cebae043008a6a7cbde1f8d3580ba4ddd943339aa68a3f706af68fc4bd24bf"
         }
       ],
@@ -87,36 +87,36 @@
       "id": "customer-case",
       "input_sha256": "f761271a12331dffde6d971d6eba6740b36f0a3c7c9ece250967abc33f6898d4",
       "input_hash_scope": "UTF-8 bytes of case.input string",
-      "output_path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ours-after/customer-case.md",
+      "output_path": "./validation/model-audit-80a2870/ours-after/customer-case.md",
       "output_sha256": "52f82f7858bdefb2f2c295d49c84078700a892b724c58ed47c8faa7d97683853",
       "loaded_materials": [
         {
-          "path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/retest-input.json#cases/customer-case",
+          "path": "./validation/model-audit-80a2870/retest-input.json#cases/customer-case",
           "sha256": "f761271a12331dffde6d971d6eba6740b36f0a3c7c9ece250967abc33f6898d4",
           "hash_scope": "case.input UTF-8"
         },
         {
-          "path": "/private/tmp/global-growth-content-audit-revised/SKILL.md",
+          "path": "snapshot://global-growth-content-revised/SKILL.md",
           "sha256": "27faa5d7dc7ceac87f9751db4bb651461ab46ea79c2665504d0fdb98483d5d43"
         },
         {
-          "path": "/private/tmp/global-growth-content-audit-revised/references/positioning-and-language.md",
+          "path": "snapshot://global-growth-content-revised/references/positioning-and-language.md",
           "sha256": "235feb4db42f6d25d364a2847d20768f4a9a3a3def9210d4d6ca1c5b13a48ee7"
         },
         {
-          "path": "/private/tmp/global-growth-content-audit-revised/references/pages-and-comparisons.md",
+          "path": "snapshot://global-growth-content-revised/references/pages-and-comparisons.md",
           "sha256": "737c438c4777693330bb12bd208ae73427a71c8b21cc5a1a2234cafe4b53b0e0"
         },
         {
-          "path": "/private/tmp/global-growth-content-audit-revised/references/adaptation.md",
+          "path": "snapshot://global-growth-content-revised/references/adaptation.md",
           "sha256": "d0251d4448303791501d0ecdfdc6273c49a818a263d880c4bfa1b61e5986301a"
         },
         {
-          "path": "/private/tmp/global-growth-content-audit-revised/references/provenance-and-handoff.md",
+          "path": "snapshot://global-growth-content-revised/references/provenance-and-handoff.md",
           "sha256": "746c27d117efc07a4622be603b9e1a92bc095d30d419c7bb191d8fb4f7115f69"
         },
         {
-          "path": "/private/tmp/global-growth-content-audit-revised/references/search-content.md",
+          "path": "snapshot://global-growth-content-revised/references/search-content.md",
           "sha256": "c6cebae043008a6a7cbde1f8d3580ba4ddd943339aa68a3f706af68fc4bd24bf"
         }
       ],
@@ -137,36 +137,36 @@
       "id": "platform-pack",
       "input_sha256": "73d3914f2ef4a7dd433d773d1a0f442c9969dd92cffa4c2af95a585351cce249",
       "input_hash_scope": "UTF-8 bytes of case.input string",
-      "output_path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ours-after/platform-pack.md",
+      "output_path": "./validation/model-audit-80a2870/ours-after/platform-pack.md",
       "output_sha256": "aa831ecafd9bb9da29667cd32343edc3159b0e5582b8b8e85875458908f75d3c",
       "loaded_materials": [
         {
-          "path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/retest-input.json#cases/platform-pack",
+          "path": "./validation/model-audit-80a2870/retest-input.json#cases/platform-pack",
           "sha256": "73d3914f2ef4a7dd433d773d1a0f442c9969dd92cffa4c2af95a585351cce249",
           "hash_scope": "case.input UTF-8"
         },
         {
-          "path": "/private/tmp/global-growth-content-audit-revised/SKILL.md",
+          "path": "snapshot://global-growth-content-revised/SKILL.md",
           "sha256": "27faa5d7dc7ceac87f9751db4bb651461ab46ea79c2665504d0fdb98483d5d43"
         },
         {
-          "path": "/private/tmp/global-growth-content-audit-revised/references/positioning-and-language.md",
+          "path": "snapshot://global-growth-content-revised/references/positioning-and-language.md",
           "sha256": "235feb4db42f6d25d364a2847d20768f4a9a3a3def9210d4d6ca1c5b13a48ee7"
         },
         {
-          "path": "/private/tmp/global-growth-content-audit-revised/references/pages-and-comparisons.md",
+          "path": "snapshot://global-growth-content-revised/references/pages-and-comparisons.md",
           "sha256": "737c438c4777693330bb12bd208ae73427a71c8b21cc5a1a2234cafe4b53b0e0"
         },
         {
-          "path": "/private/tmp/global-growth-content-audit-revised/references/adaptation.md",
+          "path": "snapshot://global-growth-content-revised/references/adaptation.md",
           "sha256": "d0251d4448303791501d0ecdfdc6273c49a818a263d880c4bfa1b61e5986301a"
         },
         {
-          "path": "/private/tmp/global-growth-content-audit-revised/references/provenance-and-handoff.md",
+          "path": "snapshot://global-growth-content-revised/references/provenance-and-handoff.md",
           "sha256": "746c27d117efc07a4622be603b9e1a92bc095d30d419c7bb191d8fb4f7115f69"
         },
         {
-          "path": "/private/tmp/global-growth-content-audit-revised/references/search-content.md",
+          "path": "snapshot://global-growth-content-revised/references/search-content.md",
           "sha256": "c6cebae043008a6a7cbde1f8d3580ba4ddd943339aa68a3f706af68fc4bd24bf"
         }
       ],
@@ -187,36 +187,36 @@
       "id": "local-rewrite",
       "input_sha256": "7a62782b50634f5483832afd3097667b1374924cd3743634b4b0e032fd4ac1aa",
       "input_hash_scope": "UTF-8 bytes of case.input string",
-      "output_path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ours-after/local-rewrite.md",
+      "output_path": "./validation/model-audit-80a2870/ours-after/local-rewrite.md",
       "output_sha256": "67862935cd8d90824936006779b325a1e9987e6d9a78839f30d4d1448ee3b1b3",
       "loaded_materials": [
         {
-          "path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/retest-input.json#cases/local-rewrite",
+          "path": "./validation/model-audit-80a2870/retest-input.json#cases/local-rewrite",
           "sha256": "7a62782b50634f5483832afd3097667b1374924cd3743634b4b0e032fd4ac1aa",
           "hash_scope": "case.input UTF-8"
         },
         {
-          "path": "/private/tmp/global-growth-content-audit-revised/SKILL.md",
+          "path": "snapshot://global-growth-content-revised/SKILL.md",
           "sha256": "27faa5d7dc7ceac87f9751db4bb651461ab46ea79c2665504d0fdb98483d5d43"
         },
         {
-          "path": "/private/tmp/global-growth-content-audit-revised/references/positioning-and-language.md",
+          "path": "snapshot://global-growth-content-revised/references/positioning-and-language.md",
           "sha256": "235feb4db42f6d25d364a2847d20768f4a9a3a3def9210d4d6ca1c5b13a48ee7"
         },
         {
-          "path": "/private/tmp/global-growth-content-audit-revised/references/pages-and-comparisons.md",
+          "path": "snapshot://global-growth-content-revised/references/pages-and-comparisons.md",
           "sha256": "737c438c4777693330bb12bd208ae73427a71c8b21cc5a1a2234cafe4b53b0e0"
         },
         {
-          "path": "/private/tmp/global-growth-content-audit-revised/references/adaptation.md",
+          "path": "snapshot://global-growth-content-revised/references/adaptation.md",
           "sha256": "d0251d4448303791501d0ecdfdc6273c49a818a263d880c4bfa1b61e5986301a"
         },
         {
-          "path": "/private/tmp/global-growth-content-audit-revised/references/provenance-and-handoff.md",
+          "path": "snapshot://global-growth-content-revised/references/provenance-and-handoff.md",
           "sha256": "746c27d117efc07a4622be603b9e1a92bc095d30d419c7bb191d8fb4f7115f69"
         },
         {
-          "path": "/private/tmp/global-growth-content-audit-revised/references/search-content.md",
+          "path": "snapshot://global-growth-content-revised/references/search-content.md",
           "sha256": "c6cebae043008a6a7cbde1f8d3580ba4ddd943339aa68a3f706af68fc4bd24bf"
         }
       ],
@@ -237,36 +237,36 @@
       "id": "conflicting-claim",
       "input_sha256": "6e847586dbb0c080881b0f44deaf7b652eab9415278b8c4de2b566976577d550",
       "input_hash_scope": "UTF-8 bytes of case.input string",
-      "output_path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/ours-after/conflicting-claim.md",
+      "output_path": "./validation/model-audit-80a2870/ours-after/conflicting-claim.md",
       "output_sha256": "ad14bf3a597f8bbf3d7d1abb0274fc368cc853f86a210c32b01de181ba36ac28",
       "loaded_materials": [
         {
-          "path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/retest-input.json#cases/conflicting-claim",
+          "path": "./validation/model-audit-80a2870/retest-input.json#cases/conflicting-claim",
           "sha256": "6e847586dbb0c080881b0f44deaf7b652eab9415278b8c4de2b566976577d550",
           "hash_scope": "case.input UTF-8"
         },
         {
-          "path": "/private/tmp/global-growth-content-audit-revised/SKILL.md",
+          "path": "snapshot://global-growth-content-revised/SKILL.md",
           "sha256": "27faa5d7dc7ceac87f9751db4bb651461ab46ea79c2665504d0fdb98483d5d43"
         },
         {
-          "path": "/private/tmp/global-growth-content-audit-revised/references/positioning-and-language.md",
+          "path": "snapshot://global-growth-content-revised/references/positioning-and-language.md",
           "sha256": "235feb4db42f6d25d364a2847d20768f4a9a3a3def9210d4d6ca1c5b13a48ee7"
         },
         {
-          "path": "/private/tmp/global-growth-content-audit-revised/references/pages-and-comparisons.md",
+          "path": "snapshot://global-growth-content-revised/references/pages-and-comparisons.md",
           "sha256": "737c438c4777693330bb12bd208ae73427a71c8b21cc5a1a2234cafe4b53b0e0"
         },
         {
-          "path": "/private/tmp/global-growth-content-audit-revised/references/adaptation.md",
+          "path": "snapshot://global-growth-content-revised/references/adaptation.md",
           "sha256": "d0251d4448303791501d0ecdfdc6273c49a818a263d880c4bfa1b61e5986301a"
         },
         {
-          "path": "/private/tmp/global-growth-content-audit-revised/references/provenance-and-handoff.md",
+          "path": "snapshot://global-growth-content-revised/references/provenance-and-handoff.md",
           "sha256": "746c27d117efc07a4622be603b9e1a92bc095d30d419c7bb191d8fb4f7115f69"
         },
         {
-          "path": "/private/tmp/global-growth-content-audit-revised/references/search-content.md",
+          "path": "snapshot://global-growth-content-revised/references/search-content.md",
           "sha256": "c6cebae043008a6a7cbde1f8d3580ba4ddd943339aa68a3f706af68fc4bd24bf"
         }
       ],

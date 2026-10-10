@@ -59,7 +59,7 @@
       ],
       "condition": "可实际运行源码与旧错误示例",
       "reuse": "developer-tool",
-      "input": "测试开源工具 csvpeek，目标为Python开发者在接入CSV前检查表头和行数。stdlib，Python >=3.10，本地读取UTF-8 CSV，无上传、无纠错、无数据库连接；无发行包，无性能基准，无stars数据。源码只在 tests/fixtures/devtool/csvpeek.py，命令 python3 csvpeek.py path/to/file.csv；不存在 --input 参数。示例 sample.csv。请求：英文README首屏、可运行安装/最小示例、限制与团队采用说明。实际运行并保留命令和输出；无文档站/社区URL，别编造。\n已有README先放八段架构再安装，旧命令“pip install csvpeek; csvpeek --input sample.csv”。本轮重新交付完整英文README，让读者完成首次任务。实际源码和样例的授权绝对位置：[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/tests/fixtures/devtool/。你可读源码并运行，不改源码。不要将测试项目绝对路径作为产品安装依赖；发行与许可证信息没有提供，不猜仓库URL。内部保留命令、目录、环境、stdout/stderr/退出状态。",
+      "input": "测试开源工具 csvpeek，目标为Python开发者在接入CSV前检查表头和行数。stdlib，Python >=3.10，本地读取UTF-8 CSV，无上传、无纠错、无数据库连接；无发行包，无性能基准，无stars数据。源码只在 tests/fixtures/devtool/csvpeek.py，命令 python3 csvpeek.py path/to/file.csv；不存在 --input 参数。示例 sample.csv。请求：英文README首屏、可运行安装/最小示例、限制与团队采用说明。实际运行并保留命令和输出；无文档站/社区URL，别编造。\n已有README先放八段架构再安装，旧命令“pip install csvpeek; csvpeek --input sample.csv”。本轮重新交付完整英文README，让读者完成首次任务。实际源码和样例的授权绝对位置：./tests/fixtures/devtool/。你可读源码并运行，不改源码。不要将测试项目绝对路径作为产品安装依赖；发行与许可证信息没有提供，不猜仓库URL。内部保留命令、目录、环境、stdout/stderr/退出状态。",
       "gingiris": [
         "gr-readme"
       ]

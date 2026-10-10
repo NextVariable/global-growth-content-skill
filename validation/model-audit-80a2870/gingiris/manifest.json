@@ -5,14 +5,14 @@
       "input_sha256": "ce9796633c9ac1f626ba60dd3372927aef3fb9de97365348014921491cf978c7",
       "input_hash_convention": "SHA256 of exact decoded input string encoded UTF-8",
       "output_sha256": "9f79be9682998d62bbb2b6459842eba2e08e2f10d9eebbb98eaa9de9412946a5",
-      "output_path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/gingiris/hero-scene.md",
+      "output_path": "./validation/model-audit-80a2870/gingiris/hero-scene.md",
       "loaded_materials": [
         {
-          "path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/tests/fixtures/content-audit.json",
+          "path": "./tests/fixtures/content-audit.json",
           "sha256": "6c0336390f4907623e44a8feb8adbdfed5bf36a667a94a44e1f4560da5049a6e"
         },
         {
-          "path": "[local-workspace]/.codex/skills/go-to-market-playbook/SKILL.md",
+          "path": "local-comparator://go-to-market-playbook/SKILL.md",
           "sha256": "32deac7973afc90ca9dbe24f379d9b04215a58f3d4230195be64543985c9adcc"
         }
       ],
@@ -33,18 +33,18 @@
       "input_sha256": "5c4fde9f82b4c085067d071896c45c08f72570874e32624bbb8029aa17230c18",
       "input_hash_convention": "SHA256 of exact decoded input string encoded UTF-8",
       "output_sha256": "4aef796fb83d4dbfd8b853cc99d55eadff6dfa5dcc25aa9db74d286a29cc95b1",
-      "output_path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/gingiris/comparison.md",
+      "output_path": "./validation/model-audit-80a2870/gingiris/comparison.md",
       "loaded_materials": [
         {
-          "path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/tests/fixtures/content-audit.json",
+          "path": "./tests/fixtures/content-audit.json",
           "sha256": "6c0336390f4907623e44a8feb8adbdfed5bf36a667a94a44e1f4560da5049a6e"
         },
         {
-          "path": "[local-workspace]/.codex/skills/gingiris-seo-geo/SKILL.md",
+          "path": "local-comparator://gingiris-seo-geo/SKILL.md",
           "sha256": "658ab1bd7ade6f8e53cd7ac1fe63432173d85f9c42601f8730fb818341bdb89c"
         },
         {
-          "path": "[local-workspace]/.codex/skills/gingiris-seo-geo/references/comparison-pages.md",
+          "path": "local-comparator://gingiris-seo-geo/references/comparison-pages.md",
           "sha256": "5fb2d01cfedafc4a8893cd6f316c0548d9e9208e22a7541034b48992906a6e93"
         }
       ],
@@ -65,26 +65,26 @@
       "input_sha256": "0f5f26855e26147555b8eff76b16e8745384143a1a89abd52053dd74aa6a089a",
       "input_hash_convention": "SHA256 of exact decoded input string encoded UTF-8",
       "output_sha256": "90c647ee6c334e322f43b2e038ded016424de83fde9996360573935dc13f2d8b",
-      "output_path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/gingiris/tutorial-update.md",
+      "output_path": "./validation/model-audit-80a2870/gingiris/tutorial-update.md",
       "loaded_materials": [
         {
-          "path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/tests/fixtures/content-audit.json",
+          "path": "./tests/fixtures/content-audit.json",
           "sha256": "6c0336390f4907623e44a8feb8adbdfed5bf36a667a94a44e1f4560da5049a6e"
         },
         {
-          "path": "[local-workspace]/.codex/skills/gr-blog-post/SKILL.md",
+          "path": "local-comparator://gr-blog-post/SKILL.md",
           "sha256": "f3c8969b2b5d29dfb23183bce4aa5e556c21c66fdb46a193ba69279ae461b1e4"
         },
         {
-          "path": "[local-workspace]/.codex/skills/gingiris-seo-geo/SKILL.md",
+          "path": "local-comparator://gingiris-seo-geo/SKILL.md",
           "sha256": "658ab1bd7ade6f8e53cd7ac1fe63432173d85f9c42601f8730fb818341bdb89c"
         },
         {
-          "path": "[local-workspace]/.codex/skills/gr-blog-post/references/writing-voice-iris.md",
+          "path": "local-comparator://gr-blog-post/references/writing-voice-iris.md",
           "sha256": "9f130dc8ad8bff0aa16a57361afc8a10b2eebeebd62d0a6b46e9e379cbbf56d1"
         },
         {
-          "path": "[local-workspace]/.codex/skills/gingiris-seo-geo/references/content-sop.md",
+          "path": "local-comparator://gingiris-seo-geo/references/content-sop.md",
           "sha256": "c6583d977471d59f783c80f7343f5785d98904dd5199bbfb3226414db1e3ce57"
         }
       ],
@@ -105,26 +105,26 @@
       "input_sha256": "f761271a12331dffde6d971d6eba6740b36f0a3c7c9ece250967abc33f6898d4",
       "input_hash_convention": "SHA256 of exact decoded input string encoded UTF-8",
       "output_sha256": "dc7e53999d167ede924e70edc42a3135ae95cf6210725017f54fc6f90268bfec",
-      "output_path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/gingiris/customer-case.md",
+      "output_path": "./validation/model-audit-80a2870/gingiris/customer-case.md",
       "loaded_materials": [
         {
-          "path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/tests/fixtures/content-audit.json",
+          "path": "./tests/fixtures/content-audit.json",
           "sha256": "6c0336390f4907623e44a8feb8adbdfed5bf36a667a94a44e1f4560da5049a6e"
         },
         {
-          "path": "[local-workspace]/.codex/skills/gr-blog-post/SKILL.md",
+          "path": "local-comparator://gr-blog-post/SKILL.md",
           "sha256": "f3c8969b2b5d29dfb23183bce4aa5e556c21c66fdb46a193ba69279ae461b1e4"
         },
         {
-          "path": "[local-workspace]/.codex/skills/gingiris-seo-geo/SKILL.md",
+          "path": "local-comparator://gingiris-seo-geo/SKILL.md",
           "sha256": "658ab1bd7ade6f8e53cd7ac1fe63432173d85f9c42601f8730fb818341bdb89c"
         },
         {
-          "path": "[local-workspace]/.codex/skills/gr-blog-post/references/writing-voice-iris.md",
+          "path": "local-comparator://gr-blog-post/references/writing-voice-iris.md",
           "sha256": "9f130dc8ad8bff0aa16a57361afc8a10b2eebeebd62d0a6b46e9e379cbbf56d1"
         },
         {
-          "path": "[local-workspace]/.codex/skills/gingiris-seo-geo/references/content-sop.md",
+          "path": "local-comparator://gingiris-seo-geo/references/content-sop.md",
           "sha256": "c6583d977471d59f783c80f7343f5785d98904dd5199bbfb3226414db1e3ce57"
         }
       ],
@@ -145,28 +145,28 @@
       "input_sha256": "cefdc1809f9ff6c9167f97389c4cb47f3779138025c508227170810e18804ca9",
       "input_hash_convention": "SHA256 of exact decoded input string encoded UTF-8",
       "output_sha256": "a7741c2178233d87c7117d265c0d0f9897c24a2591eb29e735c5bb3f1ee7bee7",
-      "output_path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/gingiris/readme.md",
+      "output_path": "./validation/model-audit-80a2870/gingiris/readme.md",
       "loaded_materials": [
         {
-          "path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/tests/fixtures/content-audit.json",
+          "path": "./tests/fixtures/content-audit.json",
           "sha256": "6c0336390f4907623e44a8feb8adbdfed5bf36a667a94a44e1f4560da5049a6e"
         },
         {
-          "path": "[local-workspace]/.codex/skills/gr-readme/SKILL.md",
+          "path": "local-comparator://gr-readme/SKILL.md",
           "sha256": "9d6072a611028e04f089e5cc81c6098d8c3aa9c933fb0a46eb4e0853440c5fc3"
         },
         {
-          "path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/tests/fixtures/devtool/csvpeek.py",
+          "path": "./tests/fixtures/devtool/csvpeek.py",
           "sha256": "738a3179b4e09872f7de89096a1281b369db0aa35ca848842c9e60046e205630"
         },
         {
-          "path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/tests/fixtures/devtool/sample.csv",
+          "path": "./tests/fixtures/devtool/sample.csv",
           "sha256": "bfe3e0a9a0b0b86bff9ab0d8a2a01d582c8ac8bfcada01ed35e30954383a47bc"
         }
       ],
       "mode": "gingiris",
       "actual_execution": {
-        "record_path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/gingiris/readme-execution.json",
+        "record_path": "./validation/model-audit-80a2870/gingiris/readme-execution.json",
         "record_sha256": "710e5aaf50c06437b971a31321e0f7b6d103b89877177585f1b18092b73394dd",
         "command": [
           "python3",
@@ -190,22 +190,22 @@
       "input_sha256": "73d3914f2ef4a7dd433d773d1a0f442c9969dd92cffa4c2af95a585351cce249",
       "input_hash_convention": "SHA256 of exact decoded input string encoded UTF-8",
       "output_sha256": "bac487a908ad16eb87b0d0e8a5ccdbb399fab97809ee69c31ccdf713e7b968e5",
-      "output_path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/gingiris/platform-pack.md",
+      "output_path": "./validation/model-audit-80a2870/gingiris/platform-pack.md",
       "loaded_materials": [
         {
-          "path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/tests/fixtures/content-audit.json",
+          "path": "./tests/fixtures/content-audit.json",
           "sha256": "6c0336390f4907623e44a8feb8adbdfed5bf36a667a94a44e1f4560da5049a6e"
         },
         {
-          "path": "[local-workspace]/.codex/skills/gr-social-distill/SKILL.md",
+          "path": "local-comparator://gr-social-distill/SKILL.md",
           "sha256": "2674fa563a1346a46d5aa1e63340876ea0d784a85e588c3b6ab16f29ee90faa5"
         },
         {
-          "path": "[local-workspace]/.codex/skills/gingiris-ugc-matrix/SKILL.md",
+          "path": "local-comparator://gingiris-ugc-matrix/SKILL.md",
           "sha256": "de2c9c0a166dff2677c51c0a376ab1121127b567ada45d87d7b79ac9a502f803"
         },
         {
-          "path": "[local-workspace]/.codex/skills/gingiris-ugc-matrix/references/full-sop.md",
+          "path": "local-comparator://gingiris-ugc-matrix/references/full-sop.md",
           "sha256": "cd3e97098bd54d2e9656c387c4b9e9dd40fa32da7faae927a0e3a9053d9cf3f2"
         }
       ],
@@ -226,18 +226,18 @@
       "input_sha256": "11d77416facd3a6ad8c30555644f0b84fab2849aa9b3562cb532985d7963bc56",
       "input_hash_convention": "SHA256 of exact decoded input string encoded UTF-8",
       "output_sha256": "dc07379d423ec84603970d000f7d8dbbf813b4c23db82cf587f95b018fa2d9e9",
-      "output_path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/gingiris/creative-control.md",
+      "output_path": "./validation/model-audit-80a2870/gingiris/creative-control.md",
       "loaded_materials": [
         {
-          "path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/tests/fixtures/content-audit.json",
+          "path": "./tests/fixtures/content-audit.json",
           "sha256": "6c0336390f4907623e44a8feb8adbdfed5bf36a667a94a44e1f4560da5049a6e"
         },
         {
-          "path": "[local-workspace]/.codex/skills/gingiris-ugc-matrix/SKILL.md",
+          "path": "local-comparator://gingiris-ugc-matrix/SKILL.md",
           "sha256": "de2c9c0a166dff2677c51c0a376ab1121127b567ada45d87d7b79ac9a502f803"
         },
         {
-          "path": "[local-workspace]/.codex/skills/gingiris-ugc-matrix/references/full-sop.md",
+          "path": "local-comparator://gingiris-ugc-matrix/references/full-sop.md",
           "sha256": "cd3e97098bd54d2e9656c387c4b9e9dd40fa32da7faae927a0e3a9053d9cf3f2"
         }
       ],
@@ -258,14 +258,14 @@
       "input_sha256": "7a62782b50634f5483832afd3097667b1374924cd3743634b4b0e032fd4ac1aa",
       "input_hash_convention": "SHA256 of exact decoded input string encoded UTF-8",
       "output_sha256": "11b646a9ba6da348587f6d39c79174b1ad8e20896b43f187c5a88af7c5661307",
-      "output_path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/validation/model-audit-80a2870/gingiris/local-rewrite.md",
+      "output_path": "./validation/model-audit-80a2870/gingiris/local-rewrite.md",
       "loaded_materials": [
         {
-          "path": "[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/tests/fixtures/content-audit.json",
+          "path": "./tests/fixtures/content-audit.json",
           "sha256": "6c0336390f4907623e44a8feb8adbdfed5bf36a667a94a44e1f4560da5049a6e"
         },
         {
-          "path": "[local-workspace]/.codex/skills/gr-social-distill/SKILL.md",
+          "path": "local-comparator://gr-social-distill/SKILL.md",
           "sha256": "2674fa563a1346a46d5aa1e63340876ea0d784a85e588c3b6ab16f29ee90faa5"
         }
       ],

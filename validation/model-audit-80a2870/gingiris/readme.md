@@ -59,9 +59,9 @@ csvpeek does not repair data, upload files or connect to databases. Confirm head
 
 # Internal verification record
 
-Loaded source: `[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/tests/fixtures/devtool/csvpeek.py`; loaded sample: same directory, `sample.csv`. The public instructions depend on source-file placement, not this test directory.
+Loaded source: `./tests/fixtures/devtool/csvpeek.py`; loaded sample: same directory, `sample.csv`. The public instructions depend on source-file placement, not this test directory.
 
-Actually executed command: `python3 csvpeek.py sample.csv`, working directory `[local-workspace]/Desktop/海外增长 skill/02-产品定位与增长内容/tests/fixtures/devtool`.
+Actually executed command: `python3 csvpeek.py sample.csv`, working directory `./tests/fixtures/devtool`.
 
 Environment: Python 3.14.3, Clang 16.0.0; executable `/Library/Frameworks/Python.framework/Versions/3.14/bin/python3`; macOS 26.3 arm64. stdout was `{"header": ["order_id", "total"], "rows": 2}` followed by a newline. stderr was empty. Exit code: 0. Exact captured evidence is in `readme-execution.json` alongside this draft.
 

@@ -6,7 +6,7 @@
 
 承接第一部分的普通交接文字或已有证据账本，沿用客户/产品/项目身份、来源 ID、证据状态、决策版本及禁止宣称项；不强制重做 GTM、不默认更换客户。第一部分的[交接模板](https://github.com/NextVariable/global-gtm-strategy-skill/blob/main/skills/global-gtm-strategy-skill/templates/handoff.md)与[证据约定](https://github.com/NextVariable/global-gtm-strategy-skill/blob/main/skills/global-gtm-strategy-skill/references/evidence-and-state.md)用于开发兼容性核对；安装单元内包含独立所需说明，不依赖这些相邻文件。
 
-业务资料放在技能目录外的授权项目，例如根目录中已忽略的 `growth-workspaces/<client>/<product>/<project>/`。通用安装单元不含业务数据或测试产物；本模块的 `tests/fixtures/` 与 `validation/` 全部为明确标记的合成测试资料，不是用户产品事实。
+业务资料放在技能目录外的授权项目，例如根目录中已忽略的 `growth-workspaces/<client>/<product>/<project>/`。通用安装单元不含业务数据或测试产物。历史内容测试使用明确标记的合成任务输入，不是用户产品事实；运行和检查报告记录实际执行范围。公开导出的历史记录已去除本机定位信息，原始哈希与公开副本哈希分别保留；真实产品材料的本地使用与公开使用需符合用户授权。
 
 在本仓库执行 `python3 scripts/validate.py`，可检查安装独立性、引用和实际测试来源一致性。可选 `--output <日志目录>` 保存检查报告。这不是文案质量评分，不检查关键词或字数来判优；语义审阅与未验证范围见 [validation/README.md](validation/README.md)。任务和条件变化输入见 [cases.json](tests/fixtures/cases.json)。
 
