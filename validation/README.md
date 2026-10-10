@@ -12,7 +12,7 @@
 
 结构复现：仓库根目录 `python3 scripts/validate.py --output .validation-output`。开发者例子：进入 `tests/fixtures/devtool/` 后运行 `python3 csvpeek.py sample.csv`，期望输出 JSON 的表头 `order_id,total` 和行数 2。此工具只证明该 README 示例可运行，不验证任意真实开源产品。
 
-仍未验证真实客户理解度、转化/留存改善、搜索排名/AI 引用、母语市场认知与平台发布、真实硬件部署或集成。持续集成已接入第二部分入口，但本地成功不能称远端多系统运行已成功；当前也未全局安装或对外发布。
+仍未验证真实客户理解度、转化/留存改善、搜索排名/AI 引用、母语市场认知与平台发布、真实硬件部署或集成。仓库已公开，提交5112b6f的GitHub多系统检查通过；这只证明工作流中的结构与记录检查成功，不代表内容质量合格。当前未验证全局安装或客户端自动发现。
 
 完整对照见 [comparison.md](comparison.md)，盲审原结果见 [blind-review.md](blind-review.md)，修复记录见 [review-notes.md](review-notes.md)。初版14对原稿均保留；修复后另存4个重新执行产物 `skill-v2/`，两项上游来源/授权追加任务保存在 `followup/`，均有输入输出哈希。例子实际复跑日志在 [devtool-execution.json](devtool-execution.json)，安装隔离检查在 [package-checks.json](package-checks.json)。
 
@@ -23,3 +23,9 @@
 最终采用稿：B2B、冲突交接、硬件场景使用 `skill-v2/` 对应文件；多语言使用 [skill-v3/multilingual.md](skill-v3/multilingual.md)；其余10项保留 `skill-v1/` 原稿。独立复审已确认已发现问题在这些修复稿中消失，没有把该结论升级成真实客户或增长验证。原始普通提示和所有失败稿仍可查，禁止用最终选稿覆盖历史。
 
 本地验证汇总见 [check-results.json](check-results.json)，原始输出哈希改写检测见 [provenance-tamper-check.json](provenance-tamper-check.json)。检测通过意味着确实能识别原稿被改写，不意味着语义自动判优。[implementation-manifest.json](implementation-manifest.json) 是2026-10-09早期实现的历史快照；后续方法修订快照见 [model-audit-80a2870/revised-snapshot.json](model-audit-80a2870/revised-snapshot.json)，不能用历史快照当当前版本验收。
+
+## 当前版本的验收状态（2026-10-10）
+
+当前方法在dfe1a2f修订，5112b6f保存公开导出和试写资料。craft-comparison-dfe1a2f是作者同一上下文顺序试写，不是隔离模型实验。final-acceptance-20261010使用获准的真实Skill本身作采用任务，但protocol冻结的是6b57209方法；不是当前修订方法的验收。三组六项初稿已存，本Skill组没有manifest，protocol的fork_turns=none与Gingiris清单的fork_turns=all相冲突，须从实际执行记录核实，不能改字段制造公平性。该轮未完成独立评审、首次采用执行和此前未告知的连续变更验收。保留原记录，不补写不存在的运行结果。
+
+validate.py核验历史cases和80a2870系列的输入/输出，以及公开导出文件；不覆盖上述两轮全部新产物的运行来源，不检测Git历史，也不验证模型是否实际加载、精确模型设置、文案质量或增长效果。当前公开树脱敏不能清除已有公开历史中的个人路径和提交邮箱，历史隐私问题仍未解决。
