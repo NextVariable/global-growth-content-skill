@@ -1,15 +1,49 @@
 # 产品定位与增长内容 / Global Positioning & Growth Content
 
-技能标识 `global-growth-content`，是五个海外增长 Skill 中的第二个。它把第一部分已选客户、真实工作流、价值与证据转成定位和信息主线、客户语言材料、页面与产品介绍、开发者 README、搜索内容、社媒/UGC brief 和多语言改写。每次只生成本次需要的产物，不执行发布、外联、销售或实验。
+把已有目标客户、产品能力与证据转成定位、官网首屏、文章、开发者 README 和社媒内容。适合已经知道产品服务谁、需要讲清价值与使用方式的团队；每次只完成你需要的产物。
 
-独立安装单元在 [skills/global-growth-content](skills/global-growth-content/)，入口是 [SKILL.md](skills/global-growth-content/SKILL.md)。只复制这个目录到所用客户端的技能目录，不复制整个第二部分或第一部分。当前项目内的实现没有写入全局技能目录，也不会自动覆盖已安装 Skill。调用示例：`使用 $global-growth-content，根据授权产品背景和已有 GTM 判断改写首页首屏，目标是让首次了解的客户看懂工作流。`
+## 获取与安装
 
-承接第一部分的普通交接文字或已有证据账本，沿用客户/产品/项目身份、来源 ID、证据状态、决策版本及禁止宣称项；不强制重做 GTM、不默认更换客户。第一部分的[交接模板](https://github.com/NextVariable/global-gtm-strategy-skill/blob/main/skills/global-gtm-strategy-skill/templates/handoff.md)与[证据约定](https://github.com/NextVariable/global-gtm-strategy-skill/blob/main/skills/global-gtm-strategy-skill/references/evidence-and-state.md)用于开发兼容性核对；安装单元内包含独立所需说明，不依赖这些相邻文件。
+```sh
+git clone https://github.com/NextVariable/global-growth-content-skill.git
+cd global-growth-content-skill
+```
 
-业务资料放在技能目录外的授权项目，例如根目录中已忽略的 `growth-workspaces/<client>/<product>/<project>/`。通用安装单元不含业务数据或测试产物。历史内容测试使用明确标记的合成任务输入，不是用户产品事实；运行和检查报告记录实际执行范围。公开导出的历史记录已去除本机定位信息，原始哈希与公开副本哈希分别保留；真实产品材料的本地使用与公开使用需符合用户授权。
+将完整的 [skills/global-growth-content](skills/global-growth-content/) 目录复制到客户端已配置的 Skill 目录，保留里面所有文件。已有同名目录时先核对版本，不直接覆盖。重新加载后确认客户端能识别 `$global-growth-content`；不同客户端的目录和加载方式以其实际配置为准，目前没有验证所有客户端自动发现。
 
-在本仓库执行 `python3 scripts/validate.py`，可检查安装独立性、引用和实际测试来源一致性。可选 `--output <日志目录>` 保存检查报告。这不是文案质量评分，不检查关键词或字数来判优；语义审阅与未验证范围见 [validation/README.md](validation/README.md)。任务和条件变化输入见 [cases.json](tests/fixtures/cases.json)。
+使用这份 Markdown Skill 不需要安装 Python 包或独立服务，模型及工具由客户端提供。Python 和 Git 仅用于仓库的开发检查。
 
-第三部分接收素材及人群/阶段/目的/CTA/渠道条件，第四部分接收价值/证明/疑虑与购买角色，第五部分接收信息假设、版本差异、预期行为与评价口径。内容完成、具备发布条件、实际发布和效果验证是不同状态。
+## 第一次任务
 
-仓库已公开；当前客户端自动发现、真实客户理解度和增长效果尚未验证。独立复制与结构检查通过，不等于在客户端成功完成任务，也不证明文案优于普通提示。许可见安装单元的 [LICENSE](skills/global-growth-content/LICENSE)。
+最少提供目标读者、已确认能力、读者现有做法、所需产物及真实下一步。没有访谈、数据或购买证明可以直接说明，Skill仍可生成基于能力的初稿。
+
+下面是合成示例，不是真实客户资料：
+
+```text
+使用 $global-growth-content，为我们的CSV对账工具写英文官网首屏。
+目标读者：每月核对订单表的财务人员。
+现有做法：人工对照两份CSV。
+已确认能力：按订单编号匹配，列出状态差异和单侧缺失记录。
+限制：不回写原表，不判断是否漏款，结果需要人工核验。
+证据：只有上述已确认能力，没有客户效果数据。
+下一步：查看随附流程说明，目前没有公开URL。
+```
+
+应得到完整标题、副标题和下一步文案，能解释工具如何帮助复核；没有URL时给待配置入口，不编链接。待确认资料与来源说明放在独立内部注释，不用它们取代正文。生成初稿不等于内容已发布或效果已验证。
+
+## 范围与交接
+
+这是五个海外增长 Skill 中的第二个，标识为 `global-growth-content`。它承接已有市场和客户判断，不重新选择市场；处理定位、产品营销页面、采用内容和改写，不执行实际发布、外联、投放、销售或增长实验。
+
+第一部分交接可以是普通文字，也可使用现有证据账本；本Skill独立安装，不需要第一部分脚本或相邻文件。开发兼容资料见第一部分的[交接模板](https://github.com/NextVariable/global-gtm-strategy-skill/blob/main/skills/global-gtm-strategy-skill/templates/handoff.md)。后续发布、成交和实验分别交第三、第四、第五部分。项目资料保存到用户授权的位置，不放进通用安装单元。
+
+## 检查与当前限制
+
+```sh
+python3 scripts/validate.py
+python3 -m unittest discover -s tests -p 'test_*.py'
+```
+
+检查覆盖安装单元、部分历史运行记录、公开副本完整性及当前候选文件；不评价文案效果，不检测全部Git历史。具体范围见[验证说明](validation/README.md)。独立复制和结构检查已经执行；当前修订尚未完成独立模型对照、客户端首次内容任务及真实用户反馈验收。旧隔离记录冲突的对照不用于公平比较；历史隐私清理仍待单独处理。仓库是公开可用原型，不宣称成熟、全面领先或增长效果已验证。
+
+完整开发档案和未完成对照在本地私有保存，已知失败修复及必要复现记录暂保留公开。记录精简不代表清除了旧提交中的资料。项目采用 [MIT](LICENSE)，安装单元含自己的 [LICENSE](skills/global-growth-content/LICENSE)。
