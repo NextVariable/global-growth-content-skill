@@ -96,3 +96,5 @@ PYTHONDONTWRITEBYTECODE=1 python3 scripts/validate.py
 Turn product facts and customer context into positioning, pages, developer READMEs, articles, social posts and video scripts. Content stays specific to the audience, mechanism and available proof. Install the complete skill directory and invoke `$global-growth-content`. Instructions are Chinese-first; deliverables follow the target audience. Model and external tools are supplied by your client.
 
 [MIT](LICENSE). 安装和再分发时保留随包许可文件。
+
+第三方来源及许可见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
