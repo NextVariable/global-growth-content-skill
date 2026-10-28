@@ -98,3 +98,5 @@ Turn product facts and customer context into positioning, pages, developer READM
 [MIT](LICENSE). 安装和再分发时保留随包许可文件。
 
 第三方来源及许可见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+
+维护与更新：[变更记录](CHANGELOG.md) · [升级与回退](docs/upgrading.md) · [安全问题反馈](SECURITY.md)。
